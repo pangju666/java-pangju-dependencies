@@ -16,7 +16,7 @@
 
 	<name>pangju-dependencies</name>
 	<description>maven父级依赖项目，基于spring-boot-dependencies拓展</description>
-	<url>https://github.com/pangju666/pangju-dependencies</url>
+	<url>https://github.com/pangju666/java-pangju-dependencies</url>
 
 	<properties>
 		<compiler.encoding>UTF-8</compiler.encoding>
@@ -79,9 +79,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git@github.com:pangju666/pangju-dependencies.git</connection>
-		<developerConnection>scm:git@github.com:pangju666/pangju-dependencies.git</developerConnection>
-		<url>https://github.com/pangju666/pangju-dependencies</url>
+		<connection>scm:git@github.com:pangju666/java-pangju-dependencies.git</connection>
+		<developerConnection>scm:git@github.com:pangju666/java-pangju-dependencies.git</developerConnection>
+		<url>https://github.com/pangju666/java-pangju-dependencies</url>
 	</scm>
 
 	<dependencyManagement>
