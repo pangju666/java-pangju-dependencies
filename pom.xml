@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xmlns="http://maven.apache.org/POM/4.0.0"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-dependencies</artifactId>
+		<version>3.2.2</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>io.github.pangju666</groupId>
+	<artifactId>pangju-dependencies</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<name>pangju-dependencies</name>
+	<description>maven父级依赖项目，基于spring-boot-dependencies拓展</description>
+	<url>https://github.com/pangju666/pangju-dependencies</url>
+
+	<properties>
+		<compiler.encoding>UTF-8</compiler.encoding>
+		<bucket4j.version>8.7.1</bucket4j.version>
+		<commons-collections4.version>4.4</commons-collections4.version>
+		<commons-compress.version>1.25.0</commons-compress.version>
+		<commons-exec.version>1.4.0</commons-exec.version>
+		<commons-io.version>2.15.1</commons-io.version>
+		<commons-math3.version>3.6.1</commons-math3.version>
+		<commons-net.version>3.10.0</commons-net.version>
+		<commons-text.version>1.11.0</commons-text.version>
+		<commons-validator.version>1.8.0</commons-validator.version>
+		<disruptor.version>4.0.0</disruptor.version>
+		<dom4j.version>2.1.4</dom4j.version>
+		<dynamic-datasource.version>4.3.0</dynamic-datasource.version>
+		<easyexcel.version>3.3.3</easyexcel.version>
+		<expiringmap.version>0.5.11</expiringmap.version>
+		<gmavenplus.plugins.version>3.0.2</gmavenplus.plugins.version>
+		<gpg.plugins.version>3.1.0</gpg.plugins.version>
+		<guava.version>33.0.0-jre</guava.version>
+		<jai-imageio.version>1.4.0</jai-imageio.version>
+		<jasypt.version>1.9.3</jasypt.version>
+		<java.version>17</java.version>
+		<java-jwt.version>4.4.0</java-jwt.version>
+		<javadoc.encoding>UTF-8</javadoc.encoding>
+		<jmimemagic.version>0.1.5</jmimemagic.version>
+		<jpinyin.version>1.1.8</jpinyin.version>
+		<knife4j.version>4.5.0</knife4j.version>
+		<mapstruct.version>1.5.5.Final</mapstruct.version>
+		<metadata-extractor.version>2.19.0</metadata-extractor.version>
+		<mybatis.version>3.5.14</mybatis.version>
+		<mybatis-plus.version>3.5.5</mybatis-plus.version>
+		<mybatis-spring.version>3.0.3</mybatis-spring.version>
+		<p6spy.version>3.9.1</p6spy.version>
+		<pdfbox.version>3.0.1</pdfbox.version>
+		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
+		<poi.version>5.2.5</poi.version>
+		<poi-tl.version>1.12.2</poi-tl.version>
+		<protostuff.version>1.8.0</protostuff.version>
+		<redisson.version>3.26.0</redisson.version>
+		<reflections.version>0.10.2</reflections.version>
+		<spockframework.version>2.3-groovy-4.0</spockframework.version>
+		<tika.version>2.9.1</tika.version>
+		<thumbnailator.version>0.4.20</thumbnailator.version>
+	</properties>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>pangju</id>
+			<name>majiale</name>
+			<email>2281525307@qq.com</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git@github.com:pangju666/pangju-dependencies.git</connection>
+		<developerConnection>scm:git@github.com:pangju666/pangju-dependencies.git</developerConnection>
+		<url>https://github.com/pangju666/pangju-dependencies</url>
+	</scm>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel -->
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>easyexcel</artifactId>
+				<version>${easyexcel.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.alibaba/easyexcel-core -->
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>easyexcel-core</artifactId>
+				<version>${easyexcel.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
+			<dependency>
+				<groupId>com.auth0</groupId>
+				<artifactId>java-jwt</artifactId>
+				<version>${java-jwt.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.baomidou/dynamic-datasource-spring-boot3-starter -->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>dynamic-datasource-spring-boot3-starter</artifactId>
+				<version>${dynamic-datasource.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus -->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus</artifactId>
+				<version>${mybatis-plus.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-annotation -->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-annotation</artifactId>
+				<version>${mybatis-plus.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-core -->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-core</artifactId>
+				<version>${mybatis-plus.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-extension -->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-extension</artifactId>
+				<version>${mybatis-plus.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-generator -->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-generator</artifactId>
+				<version>${mybatis-plus.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-spring-boot3-starter -->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+				<version>${mybatis-plus.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-caffeine -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-caffeine</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-coherence -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-coherence</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-core -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-core</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-hazelcast -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-hazelcast</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-hazelcast-3 -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-hazelcast-3</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-ignite -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-ignite</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-jcache -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-jcache</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-mysql -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-mysql</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-postgresql -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-postgresql</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-redis -->
+			<dependency>
+				<groupId>com.bucket4j</groupId>
+				<artifactId>bucket4j-redis</artifactId>
+				<version>${bucket4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.deepoove/poi-tl -->
+			<dependency>
+				<groupId>com.deepoove</groupId>
+				<artifactId>poi-tl</artifactId>
+				<version>${poi-tl.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.drewnoakes/metadata-extractor -->
+			<dependency>
+				<groupId>com.drewnoakes</groupId>
+				<artifactId>metadata-extractor</artifactId>
+				<version>${metadata-extractor.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.jai-imageio/jai-imageio-core -->
+			<dependency>
+				<groupId>com.github.jai-imageio</groupId>
+				<artifactId>jai-imageio-core</artifactId>
+				<version>${jai-imageio.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.jai-imageio/jai-imageio-jpeg2000 -->
+			<dependency>
+				<groupId>com.github.jai-imageio</groupId>
+				<artifactId>jai-imageio-jpeg2000</artifactId>
+				<version>${jai-imageio.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.stuxuhai/jpinyin -->
+			<dependency>
+				<groupId>com.github.stuxuhai</groupId>
+				<artifactId>jpinyin</artifactId>
+				<version>${jpinyin.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.xiaoymin/knife4j-openapi3-jakarta-spring-boot-starter -->
+			<dependency>
+				<groupId>com.github.xiaoymin</groupId>
+				<artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+				<version>${knife4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+			<dependency>
+				<groupId>com.google.guava</groupId>
+				<artifactId>guava</artifactId>
+				<version>${guava.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.lmax/disruptor -->
+			<dependency>
+				<groupId>com.lmax</groupId>
+				<artifactId>disruptor</artifactId>
+				<version>${disruptor.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+			<dependency>
+				<groupId>com.mysql</groupId>
+				<artifactId>mysql-connector-j</artifactId>
+				<version>${mysql.version}</version>
+				<scope>runtime</scope>
+				<exclusions>
+					<exclusion>
+						<groupId>com.google.protobuf</groupId>
+						<artifactId>protobuf-java</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+			<dependency>
+				<groupId>commons-io</groupId>
+				<artifactId>commons-io</artifactId>
+				<version>${commons-io.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+			<dependency>
+				<groupId>commons-net</groupId>
+				<artifactId>commons-net</artifactId>
+				<version>${commons-net.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
+			<dependency>
+				<groupId>commons-validator</groupId>
+				<artifactId>commons-validator</artifactId>
+				<version>${commons-validator.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+			<dependency>
+				<groupId>io.rest-assured</groupId>
+				<artifactId>rest-assured</artifactId>
+				<version>${rest-assured.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.codehaus.groovy</groupId>
+						<artifactId>groovy</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.codehaus.groovy</groupId>
+						<artifactId>groovy-json</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>org.codehaus.groovy</groupId>
+						<artifactId>groovy-xml</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/io.protostuff/protostuff-core -->
+			<dependency>
+				<groupId>io.protostuff</groupId>
+				<artifactId>protostuff-core</artifactId>
+				<version>${protostuff.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/io.protostuff/protostuff-runtime -->
+			<dependency>
+				<groupId>io.protostuff</groupId>
+				<artifactId>protostuff-runtime</artifactId>
+				<scope>runtime</scope>
+				<version>${protostuff.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
+			<dependency>
+				<groupId>net.coobird</groupId>
+				<artifactId>thumbnailator</artifactId>
+				<version>${thumbnailator.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/net.jodah/expiringmap -->
+			<dependency>
+				<groupId>net.jodah</groupId>
+				<artifactId>expiringmap</artifactId>
+				<version>${expiringmap.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/net.sf.jmimemagic/jmimemagic -->
+			<dependency>
+				<groupId>net.sf.jmimemagic</groupId>
+				<artifactId>jmimemagic</artifactId>
+				<version>${jmimemagic.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-collections4</artifactId>
+				<version>${commons-collections4.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-compress</artifactId>
+				<version>${commons-compress.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-exec -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-exec</artifactId>
+				<version>${commons-exec.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-math3</artifactId>
+				<version>${commons-math3.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-text</artifactId>
+				<version>${commons-text.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/jbig2-imageio -->
+			<dependency>
+				<groupId>org.apache.pdfbox</groupId>
+				<artifactId>jbig2-imageio</artifactId>
+				<version>${pdfbox-jbig2-imageio.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+			<dependency>
+				<groupId>org.apache.pdfbox</groupId>
+				<artifactId>pdfbox</artifactId>
+				<version>${pdfbox.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi</artifactId>
+				<version>${poi.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+			<dependency>
+				<groupId>org.apache.poi</groupId>
+				<artifactId>poi-ooxml</artifactId>
+				<version>${poi.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-core -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-core</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parsers-standard-package -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parsers-standard-package</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+			<dependency>
+				<groupId>org.dom4j</groupId>
+				<artifactId>dom4j</artifactId>
+				<version>${dom4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
+			<dependency>
+				<groupId>org.jasypt</groupId>
+				<artifactId>jasypt</artifactId>
+				<version>${jasypt.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
+			<dependency>
+				<groupId>org.mapstruct</groupId>
+				<artifactId>mapstruct</artifactId>
+				<version>${mapstruct.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct-processor -->
+			<dependency>
+				<groupId>org.mapstruct</groupId>
+				<artifactId>mapstruct-processor</artifactId>
+				<version>${mapstruct.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis</artifactId>
+				<version>${mybatis.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
+			<dependency>
+				<groupId>org.mybatis</groupId>
+				<artifactId>mybatis-spring</artifactId>
+				<version>${mybatis-spring.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter -->
+			<dependency>
+				<groupId>org.mybatis.spring.boot</groupId>
+				<artifactId>mybatis-spring-boot-starter</artifactId>
+				<version>${mybatis-spring.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.redisson/redisson -->
+			<dependency>
+				<groupId>org.redisson</groupId>
+				<artifactId>redisson</artifactId>
+				<version>${redisson.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.redisson/redisson-spring-boot-starter -->
+			<dependency>
+				<groupId>org.redisson</groupId>
+				<artifactId>redisson-spring-boot-starter</artifactId>
+				<version>${redisson.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.redisson/redisson-spring-data-32 -->
+			<dependency>
+				<groupId>org.redisson</groupId>
+				<artifactId>redisson-spring-data-32</artifactId>
+				<version>${redisson.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.reflections/reflections -->
+			<dependency>
+				<groupId>org.reflections</groupId>
+				<artifactId>reflections</artifactId>
+				<version>${reflections.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-core -->
+			<dependency>
+				<groupId>org.spockframework</groupId>
+				<artifactId>spock-core</artifactId>
+				<version>${spockframework.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-spring -->
+			<dependency>
+				<groupId>org.spockframework</groupId>
+				<artifactId>spock-spring</artifactId>
+				<version>${spockframework.version}</version>
+				<scope>test</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/p6spy/p6spy -->
+			<dependency>
+				<groupId>p6spy</groupId>
+				<artifactId>p6spy</artifactId>
+				<version>${p6spy.version}</version>
+				<scope>runtime</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
+						<encoding>${compiler.encoding}</encoding>
+					</configuration>
+				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-javadoc-plugin</artifactId>
+					<configuration>
+						<charset>${javadoc.encoding}</charset>
+						<docencoding>${javadoc.encoding}</docencoding>
+						<encoding>${javadoc.encoding}</encoding>
+						<doclint>none</doclint>
+					</configuration>
+					<executions>
+						<execution>
+							<id>attach-javadocs</id>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-source-plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-source-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>attach-sources</id>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.codehaus.gmavenplus/gmavenplus-plugin -->
+				<plugin>
+					<groupId>org.codehaus.gmavenplus</groupId>
+					<artifactId>gmavenplus-plugin</artifactId>
+					<version>${gmavenplus.plugins.version}</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>compileTests</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>versions-maven-plugin</artifactId>
+					<configuration>
+						<generateBackupPoms>false</generateBackupPoms>
+					</configuration>
+				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-gpg-plugin</artifactId>
+					<version>${gpg.plugins.version}</version>
+					<executions>
+						<execution>
+							<phase>verify</phase>
+							<goals>
+								<goal>sign</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>sonatype-nexus-snapshots</id>
+			<name>Sonatype Nexus Snapshots</name>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>sonatype-nexus-staging</id>
+			<name>Nexus Release Repository</name>
+			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+</project>

@@ -1,2 +1,3 @@
 # pangju-dependencies
-maven父级依赖项目，基于spring-boot-starter-parent拓展
+
+maven父级依赖项目，基于spring-boot-dependencies拓展
