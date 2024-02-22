@@ -46,6 +46,7 @@
 		<jpinyin.version>1.1.8</jpinyin.version>
 		<knife4j.version>4.5.0</knife4j.version>
 		<mapstruct.version>1.5.5.Final</mapstruct.version>
+		<maven-release-plugin.version>3.0.1</maven-release-plugin.version>
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
 		<mybatis.version>3.5.14</mybatis.version>
 		<mybatis-plus.version>3.5.5</mybatis-plus.version>
@@ -79,8 +80,8 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git@github.com:pangju666/java-pangju-dependencies.git</connection>
-		<developerConnection>scm:git@github.com:pangju666/java-pangju-dependencies.git</developerConnection>
+		<connection>scm:git:https://github.com/pangju666/java-pangju-dependencies</connection>
+		<developerConnection>scm:git:https://github.com/pangju666/java-pangju-dependencies</developerConnection>
 		<url>https://github.com/pangju666/java-pangju-dependencies</url>
 	</scm>
 
@@ -537,6 +538,31 @@
 						</execution>
 					</executions>
 				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-release-plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>${maven-release-plugin.version}</version>
+					<configuration>
+						<autoVersionSubmodules>true</autoVersionSubmodules>
+						<tagNameFormat>v@{project.version}</tagNameFormat>
+						<arguments>-DskipTests</arguments>
+					</configuration>
+				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-gpg-plugin</artifactId>
+					<version>${gpg.plugins.version}</version>
+					<executions>
+						<execution>
+							<phase>verify</phase>
+							<goals>
+								<goal>sign</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.codehaus.gmavenplus/gmavenplus-plugin -->
 				<plugin>
 					<groupId>org.codehaus.gmavenplus</groupId>
@@ -557,20 +583,6 @@
 					<configuration>
 						<generateBackupPoms>false</generateBackupPoms>
 					</configuration>
-				</plugin>
-				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-gpg-plugin</artifactId>
-					<version>${gpg.plugins.version}</version>
-					<executions>
-						<execution>
-							<phase>verify</phase>
-							<goals>
-								<goal>sign</goal>
-							</goals>
-						</execution>
-					</executions>
 				</plugin>
 			</plugins>
 		</pluginManagement>
