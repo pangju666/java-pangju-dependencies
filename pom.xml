@@ -475,14 +475,12 @@
 				<groupId>org.spockframework</groupId>
 				<artifactId>spock-core</artifactId>
 				<version>${spockframework.version}</version>
-				<scope>test</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-spring -->
 			<dependency>
 				<groupId>org.spockframework</groupId>
 				<artifactId>spock-spring</artifactId>
 				<version>${spockframework.version}</version>
-				<scope>test</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/p6spy/p6spy -->
 			<dependency>
