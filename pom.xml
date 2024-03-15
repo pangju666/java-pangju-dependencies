@@ -550,6 +550,7 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
 					<version>${maven-release-plugin.version}</version>
+					<inherited>false</inherited>
 					<configuration>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
 						<tagNameFormat>v@{project.version}</tagNameFormat>
@@ -561,6 +562,7 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
 					<version>${gpg.plugins.version}</version>
+					<inherited>false</inherited>
 					<executions>
 						<execution>
 							<phase>verify</phase>
@@ -587,6 +589,7 @@
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>versions-maven-plugin</artifactId>
+					<inherited>false</inherited>
 					<configuration>
 						<generateBackupPoms>false</generateBackupPoms>
 					</configuration>
