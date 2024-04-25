@@ -59,6 +59,7 @@
 		<protostuff.version>1.8.0</protostuff.version>
 		<redisson.version>3.29.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
+		<resilience4j-ratelimiter.version>2.2.0</resilience4j-ratelimiter.version>
 		<spockframework.version>2.3-groovy-4.0</spockframework.version>
 		<tika.version>2.9.2</tika.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
@@ -148,58 +149,10 @@
 				<artifactId>mybatis-plus-spring-boot3-starter</artifactId>
 				<version>${mybatis-plus.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-caffeine -->
-			<dependency>
-				<groupId>com.bucket4j</groupId>
-				<artifactId>bucket4j-caffeine</artifactId>
-				<version>${bucket4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-coherence -->
-			<dependency>
-				<groupId>com.bucket4j</groupId>
-				<artifactId>bucket4j-coherence</artifactId>
-				<version>${bucket4j.version}</version>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-core -->
 			<dependency>
 				<groupId>com.bucket4j</groupId>
 				<artifactId>bucket4j-core</artifactId>
-				<version>${bucket4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-hazelcast -->
-			<dependency>
-				<groupId>com.bucket4j</groupId>
-				<artifactId>bucket4j-hazelcast</artifactId>
-				<version>${bucket4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-hazelcast-3 -->
-			<dependency>
-				<groupId>com.bucket4j</groupId>
-				<artifactId>bucket4j-hazelcast-3</artifactId>
-				<version>${bucket4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-ignite -->
-			<dependency>
-				<groupId>com.bucket4j</groupId>
-				<artifactId>bucket4j-ignite</artifactId>
-				<version>${bucket4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-jcache -->
-			<dependency>
-				<groupId>com.bucket4j</groupId>
-				<artifactId>bucket4j-jcache</artifactId>
-				<version>${bucket4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-mysql -->
-			<dependency>
-				<groupId>com.bucket4j</groupId>
-				<artifactId>bucket4j-mysql</artifactId>
-				<version>${bucket4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-postgresql -->
-			<dependency>
-				<groupId>com.bucket4j</groupId>
-				<artifactId>bucket4j-postgresql</artifactId>
 				<version>${bucket4j.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.bucket4j/bucket4j-redis -->
@@ -286,6 +239,12 @@
 				<groupId>commons-validator</groupId>
 				<artifactId>commons-validator</artifactId>
 				<version>${commons-validator.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-ratelimiter -->
+			<dependency>
+				<groupId>io.github.resilience4j</groupId>
+				<artifactId>resilience4j-ratelimiter</artifactId>
+				<version>${resilience4j-ratelimiter.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 			<dependency>
