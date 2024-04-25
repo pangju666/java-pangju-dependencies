@@ -457,6 +457,12 @@
 				<groupId>org.redisson</groupId>
 				<artifactId>redisson-spring-boot-starter</artifactId>
 				<version>${redisson.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.springframework.boot</groupId>
+						<artifactId>spring-boot-starter-actuator</artifactId>
+					</exclusion>
+				</exclusions>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.redisson/redisson-spring-data-32 -->
 			<dependency>
