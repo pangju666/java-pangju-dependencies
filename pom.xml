@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.0</version>
+		<version>3.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -60,7 +60,7 @@
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.2.0</resilience4j.version>
 		<spockframework.version>2.4-M4-groovy-4.0</spockframework.version>
-		<spring-boot.version>3.4.0</spring-boot.version>
+		<spring-boot.version>3.4.1</spring-boot.version>
 		<tika.version>3.0.0</tika.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
 		<xz.version>1.10</xz.version>
@@ -307,6 +307,12 @@
 			<dependency>
 				<groupId>org.apache.pdfbox</groupId>
 				<artifactId>pdfbox</artifactId>
+				<version>${pdfbox.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox-tools -->
+			<dependency>
+				<groupId>org.apache.pdfbox</groupId>
+				<artifactId>pdfbox-tools</artifactId>
 				<version>${pdfbox.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
