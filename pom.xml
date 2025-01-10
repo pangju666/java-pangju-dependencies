@@ -58,6 +58,7 @@
 		<redisson.version>3.40.1</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.2.0</resilience4j.version>
+		<smart-doc-maven-plugin.version>3.0.9</smart-doc-maven-plugin.version>
 		<spockframework.version>2.4-M4-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.4.1</spring-boot.version>
 		<tika.version>3.0.0</tika.version>
@@ -443,6 +444,27 @@
 	<build>
 		<pluginManagement>
 			<plugins>
+				<!-- https://mvnrepository.com/artifact/com.ly.smart-doc/smart-doc-maven-plugin -->
+				<plugin>
+					<groupId>com.ly.smart-doc</groupId>
+					<artifactId>smart-doc-maven-plugin</artifactId>
+					<version>${smart-doc-maven-plugin.version}</version>
+					<configuration>
+						<configFile>${basedir}/src/main/resources/smart-doc.json</configFile>
+						<includes>
+							<!-- 使用了mybatis-plus的Page分页需要include所使用的源码包 -->
+							<include>com.baomidou:mybatis-plus-extension</include>
+							<!-- 使用了mybatis-plus的IPage分页需要include mybatis-plus-core-->
+							<include>com.baomidou:mybatis-plus-core</include>
+						</includes>
+						<projectName>${project.name}</projectName>
+					</configuration>
+					<executions>
+						<execution>
+							<phase>package</phase>
+						</execution>
+					</executions>
+				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
