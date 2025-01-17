@@ -475,6 +475,20 @@
 						<encoding>${compiler.encoding}</encoding>
 					</configuration>
 				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-gpg-plugin</artifactId>
+					<version>${gpg.plugin.version}</version>
+					<executions>
+						<execution>
+							<phase>verify</phase>
+							<goals>
+								<goal>sign</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -518,6 +532,14 @@
 						</execution>
 					</executions>
 				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>versions-maven-plugin</artifactId>
+					<configuration>
+						<generateBackupPoms>false</generateBackupPoms>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 
@@ -526,23 +548,16 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
-				<version>${gpg.plugin.version}</version>
-				<executions>
-					<execution>
-						<phase>verify</phase>
-						<goals>
-							<goal>sign</goal>
-						</goals>
-					</execution>
-				</executions>
+				<inherited>false</inherited>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
 			</plugin>
 			<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>versions-maven-plugin</artifactId>
-				<configuration>
-					<generateBackupPoms>false</generateBackupPoms>
-				</configuration>
+				<inherited>false</inherited>
 			</plugin>
 		</plugins>
 	</build>
