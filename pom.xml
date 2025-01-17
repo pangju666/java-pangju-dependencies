@@ -479,7 +479,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-gpg-plugin</artifactId>
-					<version>${gpg.plugins.version}</version>
+					<version>${gpg.plugin.version}</version>
 					<executions>
 						<execution>
 							<phase>verify</phase>
@@ -523,7 +523,7 @@
 				<plugin>
 					<groupId>org.codehaus.gmavenplus</groupId>
 					<artifactId>gmavenplus-plugin</artifactId>
-					<version>${gmavenplus.plugins.version}</version>
+					<version>${gmavenplus.plugin.version}</version>
 					<executions>
 						<execution>
 							<goals>
@@ -536,7 +536,6 @@
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>versions-maven-plugin</artifactId>
-					<inherited>false</inherited>
 					<configuration>
 						<generateBackupPoms>false</generateBackupPoms>
 					</configuration>
@@ -548,6 +547,9 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
