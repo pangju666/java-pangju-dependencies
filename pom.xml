@@ -549,9 +549,9 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<inherited>false</inherited>
-				<configuration>
+				<!--<configuration>
 					<skip>true</skip>
-				</configuration>
+				</configuration>-->
 			</plugin>
 			<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
 			<plugin>
