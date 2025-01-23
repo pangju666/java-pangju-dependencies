@@ -60,7 +60,7 @@
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<smart-doc-maven-plugin.version>3.0.9</smart-doc-maven-plugin.version>
 		<spockframework.version>2.4-M4-groovy-4.0</spockframework.version>
-		<spring-boot.version>${parent.version}</spring-boot.version>
+		<spring-boot.version>3.4.1</spring-boot.version>
 		<tika.version>3.0.0</tika.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
 		<xz.version>1.10</xz.version>
