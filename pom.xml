@@ -44,7 +44,7 @@
 		<guava.version>33.4.0-jre</guava.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
-		<java-jwt.version>4.4.0</java-jwt.version>
+		<java-jwt.version>4.5.0</java-jwt.version>
 		<jmimemagic.version>0.1.5</jmimemagic.version>
 		<jpinyin.version>1.1.8</jpinyin.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -54,16 +54,17 @@
 		<mybatis-spring.version>3.0.4</mybatis-spring.version>
 		<p6spy.version>3.9.1</p6spy.version>
 		<pdfbox.version>3.0.4</pdfbox.version>
+		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
 		<poi.version>5.4.0</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
 		<protostuff.version>1.8.0</protostuff.version>
-		<redisson.version>3.43.0</redisson.version>
+		<redisson.version>3.44.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<smart-doc-maven.plugin.version>3.0.9</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M5-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.4.2</spring-boot.version>
-		<tika.version>3.0.0</tika.version>
+		<tika.version>3.1.0</tika.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
 		<xz.version>1.10</xz.version>
 	</properties>
@@ -316,7 +317,7 @@
 			<dependency>
 				<groupId>org.apache.pdfbox</groupId>
 				<artifactId>jbig2-imageio</artifactId>
-				<version>${pdfbox.version}</version>
+				<version>${pdfbox-jbig2-imageio.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
 			<dependency>
@@ -334,6 +335,12 @@
 			<dependency>
 				<groupId>org.apache.pdfbox</groupId>
 				<artifactId>pdfbox-tools</artifactId>
+				<version>${pdfbox.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/preflight -->
+			<dependency>
+				<groupId>org.apache.pdfbox</groupId>
+				<artifactId>preflight</artifactId>
 				<version>${pdfbox.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/xmpbox -->
