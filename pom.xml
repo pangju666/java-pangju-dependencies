@@ -26,11 +26,13 @@
 		<commons-cli.version>1.9.0</commons-cli.version>
 		<commons-collections4.version>4.4</commons-collections4.version>
 		<commons-compress.version>1.27.1</commons-compress.version>
+		<commons-configuration2.version>2.11.0</commons-configuration2.version>
 		<commons-crypto.version>1.2.0</commons-crypto.version>
 		<commons-csv.version>1.13.0</commons-csv.version>
 		<commons-exec.version>1.4.0</commons-exec.version>
 		<commons-io.version>2.18.0</commons-io.version>
 		<commons-math3.version>3.6.1</commons-math3.version>
+		<commons-numbers-core.version>1.2</commons-numbers-core.version>
 		<commons-net.version>3.11.1</commons-net.version>
 		<commons-text.version>1.13.0</commons-text.version>
 		<commons-validator.version>1.9.0</commons-validator.version>
@@ -277,6 +279,12 @@
 				<artifactId>commons-compress</artifactId>
 				<version>${commons-compress.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-configuration2 -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-configuration2</artifactId>
+				<version>${commons-configuration2.version}</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-crypto -->
 			<dependency>
 				<groupId>org.apache.commons</groupId>
@@ -300,6 +308,12 @@
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-math3</artifactId>
 				<version>${commons-math3.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-numbers-core -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-numbers-core</artifactId>
+				<version>${commons-numbers-core.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
 			<dependency>
