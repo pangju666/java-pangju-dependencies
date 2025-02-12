@@ -58,7 +58,6 @@
 		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
 		<poi.version>5.4.0</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
-		<protostuff.version>1.8.0</protostuff.version>
 		<redisson.version>3.44.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
@@ -234,14 +233,6 @@
 				<artifactId>resilience4j-timelimiter</artifactId>
 				<version>${resilience4j.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/io.protostuff/protostuff-bom -->
-			<dependency>
-				<groupId>io.protostuff</groupId>
-				<artifactId>protostuff-bom</artifactId>
-				<version>${protostuff.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
 			<dependency>
 				<groupId>net.coobird</groupId>
@@ -379,14 +370,6 @@
 				<groupId>org.apache.tika</groupId>
 				<artifactId>tika-core</artifactId>
 				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parsers -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parsers</artifactId>
-				<version>${tika.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parsers-standard-package -->
 			<dependency>
