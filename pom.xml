@@ -64,6 +64,7 @@
 		<smart-doc-maven.plugin.version>3.0.9</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M5-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.4.2</spring-boot.version>
+		<spring-vault.version>3.1.2</spring-vault.version>
 		<tika.version>3.1.0</tika.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
 		<xz.version>1.10</xz.version>
@@ -454,6 +455,12 @@
 				<groupId>org.spockframework</groupId>
 				<artifactId>spock-spring</artifactId>
 				<version>${spockframework.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.springframework.vault/spring-vault-core -->
+			<dependency>
+				<groupId>org.springframework.vault</groupId>
+				<artifactId>spring-vault-core</artifactId>
+				<version>${spring-vault.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/p6spy/p6spy -->
 			<dependency>
