@@ -61,6 +61,7 @@
 		<redisson.version>3.44.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
+		<sa-token.version>1.40.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.0.9</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M5-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.4.2</spring-boot.version>
@@ -98,6 +99,14 @@
 				<groupId>ch.obermuhlner</groupId>
 				<artifactId>big-math</artifactId>
 				<version>${big-math.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/cn.dev33/sa-token-bom -->
+			<dependency>
+				<groupId>cn.dev33</groupId>
+				<artifactId>sa-token-bom</artifactId>
+				<version>${sa-token.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/cn.idev.excel/fastexcel -->
 			<dependency>
