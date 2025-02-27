@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.2</version>
+		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -58,13 +58,13 @@
 		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
 		<poi.version>5.4.0</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
-		<redisson.version>3.44.0</redisson.version>
+		<redisson.version>3.45.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.40.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.0.9</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M5-groovy-4.0</spockframework.version>
-		<spring-boot.version>3.4.2</spring-boot.version>
+		<spring-boot.version>3.4.3</spring-boot.version>
 		<spring-vault.version>3.1.2</spring-vault.version>
 		<tika.version>3.1.0</tika.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
@@ -499,9 +499,11 @@
 						<configFile>${basedir}/src/main/resources/smart-doc.json</configFile>
 						<includes>
 							<!-- 使用了mybatis-plus的Page分页需要include所使用的源码包 -->
-							<include>com.baomidou:mybatis-plus-extension</include>
+							<!--<include>com.baomidou:mybatis-plus-extension</include>-->
 							<!-- 使用了mybatis-plus的IPage分页需要include mybatis-plus-core-->
-							<include>com.baomidou:mybatis-plus-core</include>
+							<!--<include>com.baomidou:mybatis-plus-core</include>-->
+							<!-- 使用了jpa的分页需要include所使用的源码包 -->
+							<!--<include>org.springframework.data:spring-data-commons</include>-->
 						</includes>
 						<projectName>${project.name}</projectName>
 					</configuration>
