@@ -507,11 +507,6 @@
 						</includes>
 						<projectName>${project.name}</projectName>
 					</configuration>
-					<executions>
-						<execution>
-							<phase>package</phase>
-						</execution>
-					</executions>
 				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 				<plugin>
@@ -600,12 +595,6 @@
 				<!--<configuration>
 					<skip>true</skip>
 				</configuration>-->
-			</plugin>
-			<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>versions-maven-plugin</artifactId>
-				<inherited>false</inherited>
 			</plugin>
 		</plugins>
 	</build>
