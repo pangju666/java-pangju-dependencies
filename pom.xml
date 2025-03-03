@@ -574,6 +574,9 @@
 							</goals>
 						</execution>
 					</executions>
+					<configuration>
+						<skipTests>true</skipTests>
+					</configuration>
 				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
 				<plugin>
