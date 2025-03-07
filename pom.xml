@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>io.github.pangju666</groupId>
 	<artifactId>pangju-dependencies</artifactId>
-	<version>1.0.0</version>
+    <version>1.0.1</version>
 	<packaging>pom</packaging>
 
 	<name>pangju-dependencies</name>
@@ -46,7 +46,6 @@
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
-		<jmimemagic.version>0.1.5</jmimemagic.version>
 		<jpinyin.version>1.1.8</jpinyin.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
@@ -208,42 +207,14 @@
 				<artifactId>commons-validator</artifactId>
 				<version>${commons-validator.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-bulkhead -->
-			<dependency>
-				<groupId>io.github.resilience4j</groupId>
-				<artifactId>resilience4j-bulkhead</artifactId>
-				<version>${resilience4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-circuitbreaker -->
-			<dependency>
-				<groupId>io.github.resilience4j</groupId>
-				<artifactId>resilience4j-circuitbreaker</artifactId>
-				<version>${resilience4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-ratelimiter -->
-			<dependency>
-				<groupId>io.github.resilience4j</groupId>
-				<artifactId>resilience4j-ratelimiter</artifactId>
-				<version>${resilience4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-retry -->
-			<dependency>
-				<groupId>io.github.resilience4j</groupId>
-				<artifactId>resilience4j-retry</artifactId>
-				<version>${resilience4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-spring-boot3 -->
-			<dependency>
-				<groupId>io.github.resilience4j</groupId>
-				<artifactId>resilience4j-spring-boot3</artifactId>
-				<version>${resilience4j.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-timelimiter -->
-			<dependency>
-				<groupId>io.github.resilience4j</groupId>
-				<artifactId>resilience4j-timelimiter</artifactId>
-				<version>${resilience4j.version}</version>
-			</dependency>
+            <!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-bom -->
+            <dependency>
+                <groupId>io.github.resilience4j</groupId>
+                <artifactId>resilience4j-bom</artifactId>
+                <version>${resilience4j.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 			<!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
 			<dependency>
 				<groupId>net.coobird</groupId>
@@ -255,12 +226,6 @@
 				<groupId>net.jodah</groupId>
 				<artifactId>expiringmap</artifactId>
 				<version>${expiringmap.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/net.sf.jmimemagic/jmimemagic -->
-			<dependency>
-				<groupId>net.sf.jmimemagic</groupId>
-				<artifactId>jmimemagic</artifactId>
-				<version>${jmimemagic.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 			<dependency>
@@ -334,24 +299,6 @@
 				<artifactId>pdfbox</artifactId>
 				<version>${pdfbox.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox-io -->
-			<dependency>
-				<groupId>org.apache.pdfbox</groupId>
-				<artifactId>pdfbox-io</artifactId>
-				<version>${pdfbox.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox-tools -->
-			<dependency>
-				<groupId>org.apache.pdfbox</groupId>
-				<artifactId>pdfbox-tools</artifactId>
-				<version>${pdfbox.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/preflight -->
-			<dependency>
-				<groupId>org.apache.pdfbox</groupId>
-				<artifactId>preflight</artifactId>
-				<version>${pdfbox.version}</version>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/xmpbox -->
 			<dependency>
 				<groupId>org.apache.pdfbox</groupId>
@@ -368,12 +315,6 @@
 			<dependency>
 				<groupId>org.apache.poi</groupId>
 				<artifactId>poi-ooxml</artifactId>
-				<version>${poi.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
-			<dependency>
-				<groupId>org.apache.poi</groupId>
-				<artifactId>poi-scratchpad</artifactId>
 				<version>${poi.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-core -->
@@ -434,12 +375,6 @@
 			<dependency>
 				<groupId>org.redisson</groupId>
 				<artifactId>redisson</artifactId>
-				<version>${redisson.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.redisson/redisson-spring-data-33 -->
-			<dependency>
-				<groupId>org.redisson</groupId>
-				<artifactId>redisson-spring-data-33</artifactId>
 				<version>${redisson.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.redisson/redisson-spring-boot-starter -->
