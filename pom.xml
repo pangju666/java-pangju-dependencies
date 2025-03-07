@@ -605,11 +605,11 @@
 
 	<distributionManagement>
 		<snapshotRepository>
-			<id>sonatype-snapshots</id>
+			<id>sonatype-nexus</id>
 			<url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
 		</snapshotRepository>
 		<repository>
-			<id>sonatype-staging</id>
+			<id>sonatype-nexus</id>
 			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
