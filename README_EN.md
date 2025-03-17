@@ -14,9 +14,9 @@
   </a>
 </p>
 
-# 介绍
+# Introduction
 
-此项目继承自spring-boot-starter-parent
+This project inherits from spring-boot-starter-parent.
 
 ```xml
 
@@ -28,9 +28,10 @@
 </parent>
 ```
 
-# 使用方法
+# Usage
 
-可以使用parent标签的方式将这个依赖管理包定义为项目父级依赖
+This dependency management package can be defined as a project parent using the parent tag approach.
+
 ```xml
 <parent>
     <groupId>io.github.pangju666</groupId>
@@ -40,7 +41,8 @@
 </parent>
 ```
 
-或者使用dependencyManagement标签将这个依赖管理包导入到项目里
+Or use the dependencyManagement tag to import this dependency management package into the project.
+
 ```xml
 <dependencyManagement>
     <dependencies>
@@ -55,10 +57,7 @@
 </dependencyManagement>
 ```
 
-## 相关链接
+## License
 
-- [文档](https://juejin.cn/post/7478893732191535142)
-
-## 开源协议
-
-本项目基于 [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.html) 协议开源.
+Pangju Dependencies is Open Source software released under
+the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0.html).
