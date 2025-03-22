@@ -46,7 +46,6 @@
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
-		<jpinyin.version>1.1.8</jpinyin.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
 		<mybatis.version>3.5.19</mybatis.version>
@@ -66,6 +65,8 @@
 		<spring-boot.version>3.4.4</spring-boot.version>
 		<spring-vault.version>3.1.2</spring-vault.version>
 		<tika.version>3.1.0</tika.version>
+		<tinypinyin.version>v2.0.3</tinypinyin.version>
+		<tinypinyin-lexicons.version>3.0.0</tinypinyin-lexicons.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
 		<xz.version>1.10</xz.version>
 	</properties>
@@ -158,11 +159,17 @@
 				<artifactId>jai-imageio-jpeg2000</artifactId>
 				<version>${jai-imageio.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.github.stuxuhai/jpinyin -->
+			<!-- https://mvnrepository.com/artifact/com.github.promeg/tinypinyin -->
 			<dependency>
-				<groupId>com.github.stuxuhai</groupId>
-				<artifactId>jpinyin</artifactId>
-				<version>${jpinyin.version}</version>
+				<groupId>com.github.promeg</groupId>
+				<artifactId>tinypinyin</artifactId>
+				<version>${tinypinyin.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.promeg/tinypinyin-lexicons-java-cncity -->
+			<dependency>
+				<groupId>com.github.promeg</groupId>
+				<artifactId>tinypinyin-lexicons-java-cncity</artifactId>
+				<version>${tinypinyin-lexicons.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 			<dependency>
