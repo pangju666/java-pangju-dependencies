@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.3</version>
+		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -27,7 +27,7 @@
 		<commons-compress.version>1.27.1</commons-compress.version>
 		<commons-configuration2.version>2.11.0</commons-configuration2.version>
 		<commons-crypto.version>1.2.0</commons-crypto.version>
-		<commons-csv.version>1.13.0</commons-csv.version>
+		<commons-csv.version>1.14.0</commons-csv.version>
 		<commons-exec.version>1.4.0</commons-exec.version>
 		<commons-io.version>2.18.0</commons-io.version>
 		<commons-math3.version>3.6.1</commons-math3.version>
@@ -42,7 +42,7 @@
 		<expiringmap.version>0.5.11</expiringmap.version>
 		<gpg.plugin.version>3.2.7</gpg.plugin.version>
 		<gmavenplus.plugin.version>4.1.1</gmavenplus.plugin.version>
-		<guava.version>33.4.0-jre</guava.version>
+		<guava.version>33.4.5-jre</guava.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
@@ -57,13 +57,13 @@
 		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
 		<poi.version>5.4.0</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
-		<redisson.version>3.45.0</redisson.version>
+		<redisson.version>3.45.1</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
-		<sa-token.version>1.40.0</sa-token.version>
+		<sa-token.version>1.41.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.0.9</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M5-groovy-4.0</spockframework.version>
-		<spring-boot.version>3.4.3</spring-boot.version>
+		<spring-boot.version>3.4.4</spring-boot.version>
 		<spring-vault.version>3.1.2</spring-vault.version>
 		<tika.version>3.1.0</tika.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
