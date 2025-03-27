@@ -191,14 +191,6 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio</artifactId>
-				<version>${twelvemonkeys.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-batik -->
 			<dependency>
 				<groupId>com.twelvemonkeys.imageio</groupId>
@@ -215,6 +207,12 @@
 			<dependency>
 				<groupId>com.twelvemonkeys.imageio</groupId>
 				<artifactId>imageio-clippath</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-core -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-core</artifactId>
 				<version>${twelvemonkeys.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-dds -->
@@ -239,6 +237,18 @@
 			<dependency>
 				<groupId>com.twelvemonkeys.imageio</groupId>
 				<artifactId>imageio-iff</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-jpeg -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-jpeg</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-metadata -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-metadata</artifactId>
 				<version>${twelvemonkeys.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-xwd -->
@@ -281,6 +291,12 @@
 			<dependency>
 				<groupId>com.twelvemonkeys.imageio</groupId>
 				<artifactId>imageio-thumbsdb</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-tiff -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-tiff</artifactId>
 				<version>${twelvemonkeys.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-webp -->
@@ -437,10 +453,8 @@
 			</dependency>
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
-				<artifactId>batik-all</artifactId>
+				<artifactId>batik-transcoder</artifactId>
 				<version>${batik.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
 			<dependency>

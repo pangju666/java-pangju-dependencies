@@ -10,5 +10,5 @@
 - chore: 升级spring-boot-starter-parent至3.4.4
 - chore: 新增hanlp portable-1.8.6
 - chore: 去除jpinyin
-- chore: 新增batik-all 1.18
+- chore: 新增batik-transcoder 1.18
 - chore: 新增com.twelvemonkeys.imageio 3.12.0
