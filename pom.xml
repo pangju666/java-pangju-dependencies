@@ -66,7 +66,9 @@
 		<spring-boot.version>3.4.4</spring-boot.version>
 		<spring-vault.version>3.1.2</spring-vault.version>
 		<tika.version>3.1.0</tika.version>
+		<batik.version>1.18</batik.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
+		<twelvemonkeys.version>3.12.0</twelvemonkeys.version>
 		<xz.version>1.10</xz.version>
 	</properties>
 
@@ -188,6 +190,110 @@
 						<artifactId>protobuf-java</artifactId>
 					</exclusion>
 				</exclusions>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio</artifactId>
+				<version>${twelvemonkeys.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-batik -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-batik</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-bmp -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-bmp</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-clippath -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-clippath</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-dds -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-dds</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-hdr -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-hdr</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-icns -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-icns</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-iff -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-iff</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-xwd -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-pcx</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-pict -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-pict</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-pnm -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-pnm</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-psd -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-psd</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-sgi -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-sgi</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-tga -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-tga</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-thumbsdb -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-thumbsdb</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-webp -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-webp</artifactId>
+				<version>${twelvemonkeys.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-xwd -->
+			<dependency>
+				<groupId>com.twelvemonkeys.imageio</groupId>
+				<artifactId>imageio-xwd</artifactId>
+				<version>${twelvemonkeys.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 			<dependency>
@@ -328,6 +434,13 @@
 				<groupId>org.apache.tika</groupId>
 				<artifactId>tika-parsers-standard-package</artifactId>
 				<version>${tika.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.xmlgraphics</groupId>
+				<artifactId>batik-all</artifactId>
+				<version>${batik.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
 			<dependency>
