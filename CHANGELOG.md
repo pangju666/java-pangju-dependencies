@@ -12,3 +12,4 @@
 - chore: 去除jpinyin
 - chore: 新增batik-transcoder 1.18
 - chore: 新增com.twelvemonkeys.imageio 3.12.0
+- chore: 新增com.twelvemonkeys.common 3.12.0
