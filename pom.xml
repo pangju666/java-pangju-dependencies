@@ -3,6 +3,7 @@
 		 xmlns="http://maven.apache.org/POM/4.0.0"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -42,7 +43,7 @@
 		<expiringmap.version>0.5.11</expiringmap.version>
 		<gpg.plugin.version>3.2.7</gpg.plugin.version>
 		<gmavenplus.plugin.version>4.1.1</gmavenplus.plugin.version>
-		<guava.version>33.4.5-jre</guava.version>
+		<guava.version>33.4.6-jre</guava.version>
 		<hanlp.version>portable-1.8.6</hanlp.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
@@ -66,7 +67,7 @@
 		<spring-boot.version>3.4.4</spring-boot.version>
 		<spring-vault.version>3.1.2</spring-vault.version>
 		<tika.version>3.1.0</tika.version>
-		<batik.version>1.18</batik.version>
+		<batik.version>1.17</batik.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
 		<twelvemonkeys.version>3.12.0</twelvemonkeys.version>
 		<xz.version>1.10</xz.version>
