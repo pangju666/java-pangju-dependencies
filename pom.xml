@@ -193,7 +193,7 @@
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.common/common-image -->
 			<dependency>
-				<groupId>com.twelvemonkeys.commons</groupId>
+				<groupId>com.twelvemonkeys.common</groupId>
 				<artifactId>common-image</artifactId>
 				<version>${twelvemonkeys.version}</version>
 			</dependency>
