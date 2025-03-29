@@ -13,3 +13,6 @@
 - chore: 新增org.apache.xmlgraphics.batik 1.17
 - chore: 新增com.twelvemonkeys.imageio 3.12.0
 - chore: 新增com.twelvemonkeys.common 3.12.0
+- chore: 新增org.boofcv core 1.2.0
+- chore: 新增org.boofcv io 1.2.0
+- chore: 新增org.boofcv ip 1.2.0
