@@ -50,6 +50,7 @@
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
+		<lz4.version>1.8.0</lz4.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
 		<mybatis.version>3.5.19</mybatis.version>
@@ -518,6 +519,12 @@
 				<groupId>org.jasypt</groupId>
 				<artifactId>jasypt</artifactId>
 				<version>${jasypt.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.lz4/lz4-java -->
+			<dependency>
+				<groupId>org.lz4</groupId>
+				<artifactId>lz4-java</artifactId>
+				<version>${lz4.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
 			<dependency>
