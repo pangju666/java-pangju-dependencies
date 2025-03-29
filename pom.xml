@@ -458,6 +458,31 @@
 				<artifactId>tika-parsers-standard-package</artifactId>
 				<version>${tika.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-anim -->
+			<dependency>
+				<groupId>org.apache.xmlgraphics</groupId>
+				<artifactId>batik-anim</artifactId>
+				<version>${batik.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-extension -->
+			<dependency>
+				<groupId>org.apache.xmlgraphics</groupId>
+				<artifactId>batik-extension</artifactId>
+				<version>${batik.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-rasterizer-ext -->
+			<dependency>
+				<groupId>org.apache.xmlgraphics</groupId>
+				<artifactId>batik-rasterizer-ext</artifactId>
+				<version>${batik.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-svggen -->
+			<dependency>
+				<groupId>org.apache.xmlgraphics</groupId>
+				<artifactId>batik-svggen</artifactId>
+				<version>${batik.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-transcoder -->
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
 				<artifactId>batik-transcoder</artifactId>
