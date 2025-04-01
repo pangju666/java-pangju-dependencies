@@ -17,3 +17,4 @@
 - chore: 新增org.boofcv io 1.2.0
 - chore: 新增org.boofcv ip 1.2.0
 - chore: 新增org.lz4 1.8.0
+- chore: 新增poi-scratchpad 5.4.0
