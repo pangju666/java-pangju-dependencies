@@ -61,6 +61,8 @@
 		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
 		<poi.version>5.4.0</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
+		<poi-tl-plugin-highlight.version>1.0.0</poi-tl-plugin-highlight.version>
+		<poi-tl-plugin-markdown.version>1.0.3</poi-tl-plugin-markdown.version>
 		<redisson.version>3.45.1</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
@@ -144,6 +146,18 @@
 				<groupId>com.deepoove</groupId>
 				<artifactId>poi-tl</artifactId>
 				<version>${poi-tl.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.deepoove/poi-tl-plugin-highlight -->
+			<dependency>
+				<groupId>com.deepoove</groupId>
+				<artifactId>poi-tl-plugin-highlight</artifactId>
+				<version>${poi-tl-plugin-highlight.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.deepoove/poi-tl-plugin-markdown -->
+			<dependency>
+				<groupId>com.deepoove</groupId>
+				<artifactId>poi-tl-plugin-markdown</artifactId>
+				<version>${poi-tl-plugin-markdown.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.drewnoakes/metadata-extractor -->
 			<dependency>
