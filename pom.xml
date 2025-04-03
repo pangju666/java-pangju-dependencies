@@ -606,6 +606,18 @@
 				<artifactId>spock-spring</artifactId>
 				<version>${spockframework.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter</artifactId>
+				<version>${spring-boot.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.springframework.boot</groupId>
+						<artifactId>spring-boot-starter-logging</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.springframework.vault/spring-vault-core -->
 			<dependency>
 				<groupId>org.springframework.vault</groupId>
