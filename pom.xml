@@ -26,7 +26,7 @@
 		<batik.version>1.17</batik.version>
 		<big-math.version>2.3.2</big-math.version>
 		<boofcv.version>1.2.0</boofcv.version>
-		<commons-collections4.version>4.4</commons-collections4.version>
+		<commons-collections4.version>4.5.0-M3</commons-collections4.version>
 		<commons-compress.version>1.27.1</commons-compress.version>
 		<commons-configuration2.version>2.11.0</commons-configuration2.version>
 		<commons-crypto.version>1.2.0</commons-crypto.version>
@@ -54,7 +54,7 @@
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
 		<mybatis.version>3.5.19</mybatis.version>
-		<mybatis-plus.version>3.5.10.1</mybatis-plus.version>
+		<mybatis-plus.version>3.5.11</mybatis-plus.version>
 		<mybatis-spring.version>3.0.4</mybatis-spring.version>
 		<p6spy.version>3.9.1</p6spy.version>
 		<pdfbox.version>3.0.4</pdfbox.version>
@@ -67,7 +67,7 @@
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.41.0</sa-token.version>
-		<smart-doc-maven.plugin.version>3.0.9</smart-doc-maven.plugin.version>
+		<smart-doc-maven.plugin.version>3.1.0</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M5-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.4.4</spring-boot.version>
 		<spring-vault.version>3.1.2</spring-vault.version>

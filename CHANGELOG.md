@@ -20,3 +20,6 @@
 - chore: 新增poi-scratchpad 5.4.0
 - chore: 新增poi-tl-plugin-highlight 1.0.0
 - chore: 新增poi-tl-plugin-markdown 1.0.3
+- chore: 升级commons-collections4至 4.5.0-M3
+- chore: 升级mybatis-plus至 3.5.11
+- chore: 升级smart-doc-maven-plugin至 3.1.0
