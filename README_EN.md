@@ -16,7 +16,7 @@
 
 # Introduction
 
-This project inherits from spring-boot-starter-parent.
+This project inherits from spring-boot-dependencies.
 
 ```xml
 

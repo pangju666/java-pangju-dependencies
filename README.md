@@ -16,7 +16,7 @@
 
 # 介绍
 
-此项目继承自spring-boot-starter-parent
+此项目继承自spring-boot-dependencies
 
 ```xml
 
