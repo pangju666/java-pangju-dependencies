@@ -23,4 +23,5 @@
 - chore: 升级commons-collections4至 4.5.0-M3
 - chore: 升级mybatis-plus至 3.5.11
 - chore: 升级smart-doc-maven-plugin至 3.1.0
-- chore: 增加spring-boot-starter 3.4.4 依赖配置
+- chore: 新增jPowerShell 3.1.1
+- chore: 新增ansj_seg 5.1.6
