@@ -52,6 +52,7 @@
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
+		<jsoup.version>1.19.1</jsoup.version>
 		<jPowerSheel.version>3.1.1</jPowerSheel.version>
 		<lz4.version>1.8.0</lz4.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -554,6 +555,12 @@
 				<groupId>org.jasypt</groupId>
 				<artifactId>jasypt</artifactId>
 				<version>${jasypt.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+			<dependency>
+				<groupId>org.jsoup</groupId>
+				<artifactId>jsoup</artifactId>
+				<version>${jsoup.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.lz4/lz4-java -->
 			<dependency>
