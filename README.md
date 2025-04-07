@@ -16,13 +16,13 @@
 
 # 介绍
 
-此项目继承自spring-boot-dependencies
+maven依赖管理项目，此项目继承自spring-boot-dependencies
 
 ```xml
 
 <parent>
     <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
+    <artifactId>spring-boot-dependencies</artifactId>
     <version>Latest Version</version>
     <relativePath/> <!-- lookup parent from repository -->
 </parent>

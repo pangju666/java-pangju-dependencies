@@ -16,13 +16,13 @@
 
 # Introduction
 
-This project inherits from spring-boot-dependencies.
+Maven dependency management project, this project inherits from spring-boot-dependencies.
 
 ```xml
 
 <parent>
     <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
+    <artifactId>spring-boot-dependencies</artifactId>
     <version>Latest Version</version>
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
