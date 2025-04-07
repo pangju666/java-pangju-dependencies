@@ -52,8 +52,9 @@
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
-		<jsoup.version>1.19.1</jsoup.version>
 		<jPowerSheel.version>3.1.1</jPowerSheel.version>
+		<jsoup.version>1.19.1</jsoup.version>
+		<jsqlparser.version>5.1</jsqlparser.version>
 		<lz4.version>1.8.0</lz4.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
@@ -180,6 +181,12 @@
 				<groupId>com.github.jai-imageio</groupId>
 				<artifactId>jai-imageio-jpeg2000</artifactId>
 				<version>${jai-imageio.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.jsqlparser/jsqlparser -->
+			<dependency>
+				<groupId>com.github.jsqlparser</groupId>
+				<artifactId>jsqlparser</artifactId>
+				<version>${jsqlparser.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 			<dependency>
