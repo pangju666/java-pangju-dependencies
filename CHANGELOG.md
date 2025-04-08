@@ -26,4 +26,5 @@
 - chore: 新增jPowerShell 3.1.1
 - chore: 新增ansj_seg 5.1.6
 - chore: 新增jsoup 1.19.1
-- chore: 新增jsqlparser 5.1
+- chore: 新增de.flapdoodle.embed.mongo 4.20.0
+- chore: 新增embedded-redis 1.4.3

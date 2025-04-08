@@ -43,6 +43,8 @@
 		<disruptor.version>4.0.0</disruptor.version>
 		<dom4j.version>2.1.4</dom4j.version>
 		<dynamic-datasource.version>4.3.1</dynamic-datasource.version>
+		<embed-mongo.version>4.20.0</embed-mongo.version>
+		<embeded-redis.version>1.4.3</embeded-redis.version>
 		<expiringmap.version>0.5.11</expiringmap.version>
 		<fastexcel.version>1.1.0</fastexcel.version>
 		<gpg.plugin.version>3.2.7</gpg.plugin.version>
@@ -54,7 +56,6 @@
 		<java-jwt.version>4.5.0</java-jwt.version>
 		<jPowerSheel.version>3.1.1</jPowerSheel.version>
 		<jsoup.version>1.19.1</jsoup.version>
-		<jsqlparser.version>5.1</jsqlparser.version>
 		<lz4.version>1.8.0</lz4.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
@@ -181,12 +182,6 @@
 				<groupId>com.github.jai-imageio</groupId>
 				<artifactId>jai-imageio-jpeg2000</artifactId>
 				<version>${jai-imageio.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.github.jsqlparser/jsqlparser -->
-			<dependency>
-				<groupId>com.github.jsqlparser</groupId>
-				<artifactId>jsqlparser</artifactId>
-				<version>${jsqlparser.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 			<dependency>
@@ -369,6 +364,12 @@
 				<artifactId>commons-validator</artifactId>
 				<version>${commons-validator.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/de.flapdoodle.embed/de.flapdoodle.embed.mongo -->
+			<dependency>
+				<groupId>de.flapdoodle.embed</groupId>
+				<artifactId>de.flapdoodle.embed.mongo</artifactId>
+				<version>${embed-mongo.version}</version>
+			</dependency>
             <!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-bom -->
             <dependency>
                 <groupId>io.github.resilience4j</groupId>
@@ -377,6 +378,12 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.codemonstur/embedded-redis -->
+			<dependency>
+				<groupId>com.github.codemonstur</groupId>
+				<artifactId>embedded-redis</artifactId>
+				<version>${embeded-redis.version}</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
 			<dependency>
 				<groupId>net.coobird</groupId>
