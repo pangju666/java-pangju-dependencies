@@ -7,7 +7,6 @@
 - chore: 升级guava至33.4.5-jre
 - chore: 升级redisson至3.45.1
 - chore: 升级sa-token至1.41.0
-- chore: 升级spring-boot-starter-parent至3.4.4
 - chore: 新增hanlp portable-1.8.6
 - chore: 去除jpinyin
 - chore: 新增org.apache.xmlgraphics.batik 1.17
