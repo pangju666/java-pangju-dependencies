@@ -75,7 +75,6 @@
 		<sa-token.version>1.41.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.0</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M5-groovy-4.0</spockframework.version>
-		<spring-boot.version>3.4.4</spring-boot.version>
 		<spring-vault.version>3.1.2</spring-vault.version>
 		<tika.version>3.1.0</tika.version>
 		<thumbnailator.version>0.4.20</thumbnailator.version>
