@@ -43,8 +43,6 @@
 		<disruptor.version>4.0.0</disruptor.version>
 		<dom4j.version>2.1.4</dom4j.version>
 		<dynamic-datasource.version>4.3.1</dynamic-datasource.version>
-		<embed-mongo.version>4.20.0</embed-mongo.version>
-		<embeded-redis.version>1.4.3</embeded-redis.version>
 		<expiringmap.version>0.5.11</expiringmap.version>
 		<fastexcel.version>1.1.0</fastexcel.version>
 		<gpg.plugin.version>3.2.7</gpg.plugin.version>
@@ -363,12 +361,6 @@
 				<artifactId>commons-validator</artifactId>
 				<version>${commons-validator.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/de.flapdoodle.embed/de.flapdoodle.embed.mongo -->
-			<dependency>
-				<groupId>de.flapdoodle.embed</groupId>
-				<artifactId>de.flapdoodle.embed.mongo</artifactId>
-				<version>${embed-mongo.version}</version>
-			</dependency>
             <!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-bom -->
             <dependency>
                 <groupId>io.github.resilience4j</groupId>
@@ -377,12 +369,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-			<!-- https://mvnrepository.com/artifact/com.github.codemonstur/embedded-redis -->
-			<dependency>
-				<groupId>com.github.codemonstur</groupId>
-				<artifactId>embedded-redis</artifactId>
-				<version>${embeded-redis.version}</version>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
 			<dependency>
 				<groupId>net.coobird</groupId>
