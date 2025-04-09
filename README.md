@@ -16,7 +16,7 @@
 
 # 介绍
 
-maven依赖管理项目，此项目继承自spring-boot-dependencies
+maven依赖管理项目，此项目继承自spring-boot-starter-parent
 
 ```xml
 

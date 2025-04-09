@@ -16,7 +16,7 @@
 
 # Introduction
 
-Maven dependency management project, this project inherits from spring-boot-dependencies.
+Maven dependency management project, this project inherits from spring-boot-starter-parent.
 
 ```xml
 
