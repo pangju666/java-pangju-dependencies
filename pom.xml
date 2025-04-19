@@ -49,6 +49,7 @@
 		<gmavenplus.plugin.version>4.1.1</gmavenplus.plugin.version>
 		<guava.version>33.4.6-jre</guava.version>
 		<hanlp.version>portable-1.8.6</hanlp.version>
+		<ipaddress.version>5.5.1</ipaddress.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
@@ -180,6 +181,12 @@
 				<groupId>com.github.jai-imageio</groupId>
 				<artifactId>jai-imageio-jpeg2000</artifactId>
 				<version>${jai-imageio.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.seancfoley/ipaddress -->
+			<dependency>
+				<groupId>com.github.seancfoley</groupId>
+				<artifactId>ipaddress</artifactId>
+				<version>${ipaddress.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 			<dependency>
