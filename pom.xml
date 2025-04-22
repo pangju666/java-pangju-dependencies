@@ -27,18 +27,18 @@
 		<ansj_seg.version>5.1.6</ansj_seg.version>
 		<batik.version>1.17</batik.version>
 		<big-math.version>2.3.2</big-math.version>
-		<boofcv.version>1.2.0</boofcv.version>
+		<boofcv.version>1.2.1</boofcv.version>
 		<commons-collections4.version>4.5.0-M3</commons-collections4.version>
 		<commons-compress.version>1.27.1</commons-compress.version>
 		<commons-configuration2.version>2.11.0</commons-configuration2.version>
 		<commons-crypto.version>1.2.0</commons-crypto.version>
 		<commons-csv.version>1.14.0</commons-csv.version>
 		<commons-exec.version>1.4.0</commons-exec.version>
-		<commons-io.version>2.18.0</commons-io.version>
+		<commons-io.version>2.19.0</commons-io.version>
 		<commons-math3.version>3.6.1</commons-math3.version>
 		<commons-numbers-core.version>1.2</commons-numbers-core.version>
 		<commons-net.version>3.11.1</commons-net.version>
-		<commons-text.version>1.13.0</commons-text.version>
+		<commons-text.version>1.13.1</commons-text.version>
 		<commons-validator.version>1.9.0</commons-validator.version>
 		<disruptor.version>4.0.0</disruptor.version>
 		<dom4j.version>2.1.4</dom4j.version>
@@ -47,13 +47,13 @@
 		<fastexcel.version>1.1.0</fastexcel.version>
 		<gpg.plugin.version>3.2.7</gpg.plugin.version>
 		<gmavenplus.plugin.version>4.1.1</gmavenplus.plugin.version>
-		<guava.version>33.4.6-jre</guava.version>
+		<guava.version>33.4.8-jre</guava.version>
 		<hanlp.version>portable-1.8.6</hanlp.version>
 		<ipaddress.version>5.5.1</ipaddress.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
-		<jPowerSheel.version>3.1.1</jPowerSheel.version>
+		<jPowerShell.version>3.1.1</jPowerShell.version>
 		<jsoup.version>1.19.1</jsoup.version>
 		<lz4.version>1.8.0</lz4.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -64,16 +64,16 @@
 		<p6spy.version>3.9.1</p6spy.version>
 		<pdfbox.version>3.0.4</pdfbox.version>
 		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
-		<poi.version>5.4.0</poi.version>
+		<poi.version>5.4.1</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
 		<poi-tl-plugin-highlight.version>1.0.0</poi-tl-plugin-highlight.version>
 		<poi-tl-plugin-markdown.version>1.0.3</poi-tl-plugin-markdown.version>
 		<redisson.version>3.45.1</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
-		<sa-token.version>1.41.0</sa-token.version>
+		<sa-token.version>1.42.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.0</smart-doc-maven.plugin.version>
-		<spockframework.version>2.4-M5-groovy-4.0</spockframework.version>
+		<spockframework.version>2.4-M6-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.4.4</spring-boot.version>
 		<spring-vault.version>3.1.2</spring-vault.version>
 		<tika.version>3.1.0</tika.version>
@@ -223,133 +223,15 @@
 			<dependency>
 				<groupId>com.profesorfalken</groupId>
 				<artifactId>jPowerShell</artifactId>
-				<version>${jPowerSheel.version}</version>
+				<version>${jPowerShell.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.common/common-image -->
+			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.bom/bom -->
 			<dependency>
-				<groupId>com.twelvemonkeys.common</groupId>
-				<artifactId>common-image</artifactId>
+				<groupId>com.twelvemonkeys.bom</groupId>
+				<artifactId>bom</artifactId>
 				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-batik -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-batik</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-bmp -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-bmp</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-clippath -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-clippath</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-core -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-core</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-dds -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-dds</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-hdr -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-hdr</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-icns -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-icns</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-iff -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-iff</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-jpeg -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-jpeg</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-metadata -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-metadata</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-xwd -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-pcx</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-pict -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-pict</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-pnm -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-pnm</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-psd -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-psd</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-sgi -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-sgi</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-tga -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-tga</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-thumbsdb -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-thumbsdb</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-tiff -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-tiff</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-webp -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-webp</artifactId>
-				<version>${twelvemonkeys.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.imageio/imageio-xwd -->
-			<dependency>
-				<groupId>com.twelvemonkeys.imageio</groupId>
-				<artifactId>imageio-xwd</artifactId>
-				<version>${twelvemonkeys.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 			<dependency>
@@ -539,16 +421,30 @@
 				<artifactId>boofcv-core</artifactId>
 				<version>${boofcv.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-io -->
+			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-ffmpeg -->
 			<dependency>
 				<groupId>org.boofcv</groupId>
-				<artifactId>boofcv-io</artifactId>
+				<artifactId>boofcv-ffmpeg</artifactId>
+				<version>${boofcv.version}</version>
+				<scope>runtime</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-javacv -->
+			<dependency>
+				<groupId>org.boofcv</groupId>
+				<artifactId>boofcv-javacv</artifactId>
 				<version>${boofcv.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-ip -->
+			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-jcodec -->
 			<dependency>
 				<groupId>org.boofcv</groupId>
-				<artifactId>boofcv-ip</artifactId>
+				<artifactId>boofcv-jcodec</artifactId>
+				<version>${boofcv.version}</version>
+				<scope>runtime</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-WebcamCapture -->
+			<dependency>
+				<groupId>org.boofcv</groupId>
+				<artifactId>boofcv-WebcamCapture</artifactId>
 				<version>${boofcv.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
@@ -641,18 +537,18 @@
 				<artifactId>spring-vault-core</artifactId>
 				<version>${spring-vault.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.tukaani/xz -->
+			<dependency>
+				<groupId>org.tukaani</groupId>
+				<artifactId>xz</artifactId>
+				<version>${xz.version}</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/p6spy/p6spy -->
 			<dependency>
 				<groupId>p6spy</groupId>
 				<artifactId>p6spy</artifactId>
 				<version>${p6spy.version}</version>
 				<scope>runtime</scope>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.tukaani/xz -->
-			<dependency>
-				<groupId>org.tukaani</groupId>
-				<artifactId>xz</artifactId>
-				<version>${xz.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
