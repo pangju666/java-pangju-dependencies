@@ -35,3 +35,4 @@
 - chore: 升级commons-text至 1.13.1
 - chore: 升级poi至 5.4.1
 - chore: 升级spockframework至 2.4-M6-groovy-4.0
+- chore: 新增javafaker 1.0.2
