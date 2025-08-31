@@ -1,12 +1,12 @@
 # CHANGELOG
 
-## [1.1.0] 2025.03.24
+## [1.1.0] 2025.08.31
 
-- chore: 升级spring-boot-starter-parent至3.4.4
-- chore: 升级commons-csv至1.14.0
-- chore: 升级guava至33.4.8-jre
-- chore: 升级redisson至3.45.1
-- chore: 升级sa-token至1.42.0
+- chore: 升级spring-boot-starter-parent至 3.5.5
+- chore: 升级commons-csv至 1.14.1
+- chore: 升级guava至 33.4.8-jre
+- chore: 升级redisson至 3.51.0
+- chore: 升级sa-token至 1.44.0
 - chore: 新增hanlp portable-1.8.6
 - chore: 去除jpinyin
 - chore: 新增batik-rasterizer-ext 1.17
@@ -15,24 +15,37 @@
 - chore: 新增batik-svggen 1.17
 - chore: 新增batik-transcoder 1.17
 - chore: 新增com.twelvemonkeys 3.12.0
-- chore: 新增boofcv-core 1.2.1
-- chore: 新增boofcv-ffmpeg 1.2.1
-- chore: 新增boofcv-javacv 1.2.1
-- chore: 新增boofcv-jcodec 1.2.1
-- chore: 新增boofcv-WebcamCapture 1.2.1
+- chore: 新增boofcv-core 1.2.3
+- chore: 新增boofcv-ffmpeg 1.2.3
+- chore: 新增boofcv-javacv 1.2.3
+- chore: 新增boofcv-jcodec 1.2.3
+- chore: 新增boofcv-WebcamCapture 1.2.3
 - chore: 新增org.lz4 1.8.0
 - chore: 新增poi-scratchpad 5.4.1
 - chore: 新增poi-tl-plugin-highlight 1.0.0
 - chore: 新增poi-tl-plugin-markdown 1.0.3
-- chore: 升级commons-collections4至 4.5.0-M3
-- chore: 升级mybatis-plus至 3.5.11
+- chore: 升级commons-collections4至 4.5.0
+- chore: 升级commons-compress至 1.28.0
+- chore: 升级commons-exec至 1.5.0
+- chore: 升级commons-configuration2至 2.12.0
+- chore: 升级mybatis-plus至 3.5.14
+- chore: 升级mybatis-spring至 3.0.5
 - chore: 升级smart-doc-maven-plugin至 3.1.0
 - chore: 新增jPowerShell 3.1.1
 - chore: 新增ansj_seg 5.1.6
-- chore: 新增jsoup 1.19.1
+- chore: 新增jsoup 1.21.2
 - chore: 新增ipaddress 5.5.1
-- chore: 升级commons-io至 2.19.0
-- chore: 升级commons-text至 1.13.1
+- chore: 升级commons-io至 2.20.0
+- chore: 升级commons-net至 3.12.0
+- chore: 升级commons-text至 1.14.0
+- chore: 升级commons-validator至 1.10.0
 - chore: 升级poi至 5.4.1
 - chore: 升级spockframework至 2.4-M6-groovy-4.0
 - chore: 新增javafaker 1.0.2
+- chore: 升级dom4j至 2.2.0
+- chore: 升级fastexcel至 1.3.0
+- chore: 升级pdfbox至 3.0.5
+- chore: 升级spring-vault至 3.2.0
+- chore: 升级tika至 3.2.2
+- chore: 升级gmavenplus-plugin至 4.2.1
+- chore: 升级maven-gpg-plugin至 3.2.8
