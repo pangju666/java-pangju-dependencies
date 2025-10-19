@@ -2,10 +2,10 @@
 
 ## [1.1.0] 2025.08.31
 
-- chore: 升级spring-boot-starter-parent至 3.5.5
+- chore: 升级spring-boot-starter-parent至 3.5.6
 - chore: 升级commons-csv至 1.14.1
-- chore: 升级guava至 33.4.8-jre
-- chore: 升级redisson至 3.51.0
+- chore: 升级guava至 33.5.0-jre
+- chore: 升级redisson至 3.52.0
 - chore: 升级sa-token至 1.44.0
 - chore: 新增hanlp portable-1.8.6
 - chore: 去除jpinyin
@@ -15,11 +15,11 @@
 - chore: 新增batik-svggen 1.17
 - chore: 新增batik-transcoder 1.17
 - chore: 新增com.twelvemonkeys 3.12.0
-- chore: 新增boofcv-core 1.2.3
-- chore: 新增boofcv-ffmpeg 1.2.3
-- chore: 新增boofcv-javacv 1.2.3
-- chore: 新增boofcv-jcodec 1.2.3
-- chore: 新增boofcv-WebcamCapture 1.2.3
+- chore: 新增boofcv-core 1.2.4
+- chore: 新增boofcv-ffmpeg 1.2.4
+- chore: 新增boofcv-javacv 1.2.4
+- chore: 新增boofcv-jcodec 1.2.4
+- chore: 新增boofcv-WebcamCapture 1.2.4
 - chore: 新增org.lz4 1.8.0
 - chore: 新增poi-scratchpad 5.4.1
 - chore: 新增poi-tl-plugin-highlight 1.0.0
@@ -44,8 +44,10 @@
 - chore: 新增javafaker 1.0.2
 - chore: 升级dom4j至 2.2.0
 - chore: 升级fastexcel至 1.3.0
-- chore: 升级pdfbox至 3.0.5
+- chore: 升级pdfbox至 3.0.6
 - chore: 升级spring-vault至 3.2.0
-- chore: 升级tika至 3.2.2
+- chore: 升级tika至 3.2.3
+- chore: 升级thumbnailator至 0.4.21
 - chore: 升级gmavenplus-plugin至 4.2.1
 - chore: 升级maven-gpg-plugin至 3.2.8
+- chore: 升级smart-doc-maven.plugin至 3.1.2

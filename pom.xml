@@ -73,7 +73,7 @@
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.44.0</sa-token.version>
-		<smart-doc-maven.plugin.version>3.1.1</smart-doc-maven.plugin.version>
+		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M6-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.5.6</spring-boot.version>
 		<spring-vault.version>3.2.0</spring-vault.version>
