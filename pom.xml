@@ -20,11 +20,9 @@
 	<url>https://github.com/pangju666/java-pangju-dependencies</url>
 
 	<properties>
-		<java.version>17</java.version>
 		<maven.compiler.release>${java.version}</maven.compiler.release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<ansj_seg.version>5.1.6</ansj_seg.version>
 		<batik.version>1.17</batik.version>
 		<big-math.version>2.3.2</big-math.version>
 		<boofcv.version>1.2.4</boofcv.version>
@@ -54,7 +52,6 @@
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
 		<javafaker.version>1.0.2</javafaker.version>
-		<jPowerShell.version>3.1.1</jPowerShell.version>
 		<jsoup.version>1.21.2</jsoup.version>
 		<lz4.version>1.8.0</lz4.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -76,7 +73,7 @@
 		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M6-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.5.6</spring-boot.version>
-		<spring-vault.version>3.2.0</spring-vault.version>
+		<spring-vault.version>4.0.0-RC1</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
 		<twelvemonkeys.version>3.12.0</twelvemonkeys.version>
@@ -226,12 +223,6 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.profesorfalken/jPowerShell -->
-			<dependency>
-				<groupId>com.profesorfalken</groupId>
-				<artifactId>jPowerShell</artifactId>
-				<version>${jPowerShell.version}</version>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.twelvemonkeys.bom/bom -->
 			<dependency>
 				<groupId>com.twelvemonkeys.bom</groupId>
@@ -277,12 +268,6 @@
 				<groupId>net.jodah</groupId>
 				<artifactId>expiringmap</artifactId>
 				<version>${expiringmap.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.ansj/ansj_seg -->
-			<dependency>
-				<groupId>org.ansj</groupId>
-				<artifactId>ansj_seg</artifactId>
-				<version>${ansj_seg.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 			<dependency>
@@ -426,32 +411,6 @@
 			<dependency>
 				<groupId>org.boofcv</groupId>
 				<artifactId>boofcv-core</artifactId>
-				<version>${boofcv.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-ffmpeg -->
-			<dependency>
-				<groupId>org.boofcv</groupId>
-				<artifactId>boofcv-ffmpeg</artifactId>
-				<version>${boofcv.version}</version>
-				<scope>runtime</scope>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-javacv -->
-			<dependency>
-				<groupId>org.boofcv</groupId>
-				<artifactId>boofcv-javacv</artifactId>
-				<version>${boofcv.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-jcodec -->
-			<dependency>
-				<groupId>org.boofcv</groupId>
-				<artifactId>boofcv-jcodec</artifactId>
-				<version>${boofcv.version}</version>
-				<scope>runtime</scope>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-WebcamCapture -->
-			<dependency>
-				<groupId>org.boofcv</groupId>
-				<artifactId>boofcv-WebcamCapture</artifactId>
 				<version>${boofcv.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
