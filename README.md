@@ -22,8 +22,8 @@ maven依赖管理项目，此项目继承自spring-boot-starter-parent
 
 <parent>
     <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-dependencies</artifactId>
-    <version>Latest Version</version>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.5.6</version>
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
 ```
@@ -35,7 +35,7 @@ maven依赖管理项目，此项目继承自spring-boot-starter-parent
 <parent>
     <groupId>io.github.pangju666</groupId>
     <artifactId>pangju-dependencies</artifactId>
-    <version>Latest Version</version>
+    <version>1.1.0</version>
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
 ```
@@ -47,7 +47,7 @@ maven依赖管理项目，此项目继承自spring-boot-starter-parent
         <dependency>
             <groupId>io.github.pangju666</groupId>
             <artifactId>pangju-dependencies</artifactId>
-            <version>Latest Version</version>
+            <version>1.1.0</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
