@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.6</version>
+		<version>3.5.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -33,6 +33,7 @@
 		<commons-csv.version>1.14.1</commons-csv.version>
 		<commons-exec.version>1.5.0</commons-exec.version>
 		<commons-io.version>2.20.0</commons-io.version>
+		<commons-lang3.version>3.18.0</commons-lang3.version>
 		<commons-math3.version>3.6.1</commons-math3.version>
 		<commons-numbers-core.version>1.2</commons-numbers-core.version>
 		<commons-net.version>3.12.0</commons-net.version>
@@ -72,7 +73,7 @@
 		<sa-token.version>1.44.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-M6-groovy-4.0</spockframework.version>
-		<spring-boot.version>3.5.6</spring-boot.version>
+		<spring-boot.version>3.5.7</spring-boot.version>
 		<spring-vault.version>4.0.0-RC1</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
