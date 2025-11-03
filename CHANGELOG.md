@@ -2,7 +2,7 @@
 
 ## [1.1.0] 2025.08.31
 
-- chore: 升级spring-boot-starter-parent至 3.5.6
+- chore: 升级spring-boot-starter-parent至 3.5.7
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
 - chore: 升级redisson至 3.52.0
@@ -45,3 +45,4 @@
 - chore: 升级gmavenplus-plugin至 4.2.1
 - chore: 升级maven-gpg-plugin至 3.2.8
 - chore: 升级smart-doc-maven.plugin至 3.1.2
+- chore: 修改commons-lang3版本为3.18.0
