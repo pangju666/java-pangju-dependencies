@@ -528,11 +528,6 @@
 					<groupId>com.ly.smart-doc</groupId>
 					<artifactId>smart-doc-maven-plugin</artifactId>
 					<version>${smart-doc-maven.plugin.version}</version>
-					<executions>
-						<execution>
-							<phase>package</phase>
-						</execution>
-					</executions>
 				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
 				<plugin>
