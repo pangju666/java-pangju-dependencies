@@ -528,26 +528,11 @@
 					<groupId>com.ly.smart-doc</groupId>
 					<artifactId>smart-doc-maven-plugin</artifactId>
 					<version>${smart-doc-maven.plugin.version}</version>
-					<configuration>
-						<configFile>${basedir}/src/main/resources/smart-doc.json</configFile>
-						<includes>
-							<!-- 使用了mybatis-plus的Page分页需要include所使用的源码包 -->
-							<!--<include>com.baomidou:mybatis-plus-extension</include>-->
-							<!-- 使用了mybatis-plus的IPage分页需要include mybatis-plus-core-->
-							<!--<include>com.baomidou:mybatis-plus-core</include>-->
-							<!-- 使用了jpa的分页需要include所使用的源码包 -->
-							<!--<include>org.springframework.data:spring-data-commons</include>-->
-						</includes>
-						<projectName>${project.name}</projectName>
-					</configuration>
-				</plugin>
-				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<configuration>
-						<parameters>true</parameters>
-					</configuration>
+					<executions>
+						<execution>
+							<phase>package</phase>
+						</execution>
+					</executions>
 				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
 				<plugin>
@@ -598,24 +583,6 @@
 					<groupId>org.codehaus.gmavenplus</groupId>
 					<artifactId>gmavenplus-plugin</artifactId>
 					<version>${gmavenplus.plugin.version}</version>
-					<executions>
-						<execution>
-							<goals>
-								<goal>compileTests</goal>
-							</goals>
-						</execution>
-					</executions>
-					<configuration>
-						<skipTests>true</skipTests>
-					</configuration>
-				</plugin>
-				<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
-				<plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>versions-maven-plugin</artifactId>
-					<configuration>
-						<generateBackupPoms>false</generateBackupPoms>
-					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
