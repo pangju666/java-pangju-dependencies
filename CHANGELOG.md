@@ -46,3 +46,4 @@
 - chore: 升级maven-gpg-plugin至 3.2.8
 - chore: 升级smart-doc-maven.plugin至 3.1.2
 - chore: 修改commons-lang3版本为3.18.0
+- chore: 新增zero-allocation-hashing 0.27ea1
