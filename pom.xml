@@ -60,7 +60,6 @@
 		<mybatis.version>3.5.19</mybatis.version>
 		<mybatis-plus.version>3.5.14</mybatis-plus.version>
 		<mybatis-spring.version>3.0.5</mybatis-spring.version>
-		<zero-allocation-hashing.version>0.27ea1</zero-allocation-hashing.version>
 		<p6spy.version>3.9.1</p6spy.version>
 		<pdfbox.version>3.0.6</pdfbox.version>
 		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
@@ -80,6 +79,8 @@
 		<thumbnailator.version>0.4.21</thumbnailator.version>
 		<twelvemonkeys.version>3.12.0</twelvemonkeys.version>
 		<xz.version>1.10</xz.version>
+		<zero-allocation-hashing.version>0.27ea1</zero-allocation-hashing.version>
+		<zip4j.version>2.11.5</zip4j.version>
 	</properties>
 
 	<licenses>
@@ -270,6 +271,11 @@
 				<groupId>net.jodah</groupId>
 				<artifactId>expiringmap</artifactId>
 				<version>${expiringmap.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>net.lingala.zip4j</groupId>
+				<artifactId>zip4j</artifactId>
+				<version>${zip4j.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/net.openhft/zero-allocation-hashing -->
 			<dependency>

@@ -47,3 +47,4 @@
 - chore: 升级smart-doc-maven.plugin至 3.1.2
 - chore: 修改commons-lang3版本为3.18.0
 - chore: 新增zero-allocation-hashing 0.27ea1
+- chore: 新增zip4j 2.11.5
