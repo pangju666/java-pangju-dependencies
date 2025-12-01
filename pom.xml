@@ -252,12 +252,6 @@
 				<artifactId>commons-net</artifactId>
 				<version>${commons-net.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
-			<dependency>
-				<groupId>commons-validator</groupId>
-				<artifactId>commons-validator</artifactId>
-				<version>${commons-validator.version}</version>
-			</dependency>
             <!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-bom -->
             <dependency>
                 <groupId>io.github.resilience4j</groupId>
@@ -360,12 +354,6 @@
 			<dependency>
 				<groupId>org.apache.pdfbox</groupId>
 				<artifactId>pdfbox</artifactId>
-				<version>${pdfbox.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/xmpbox -->
-			<dependency>
-				<groupId>org.apache.pdfbox</groupId>
-				<artifactId>xmpbox</artifactId>
 				<version>${pdfbox.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->

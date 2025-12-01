@@ -9,6 +9,8 @@
 - chore: 升级sa-token至 1.44.0
 - chore: 新增hanlp portable-1.8.6
 - chore: 去除jpinyin
+- chore: 去除xmpbox
+- chore: 去除commons-validator
 - chore: 新增batik-rasterizer-ext 1.17
 - chore: 新增batik-extension 1.17
 - chore: 新增batik-anim 1.17
@@ -32,7 +34,6 @@
 - chore: 升级commons-io至 2.21.0
 - chore: 升级commons-net至 3.12.0
 - chore: 升级commons-text至 1.14.0
-- chore: 升级commons-validator至 1.10.1
 - chore: 升级poi至 5.5.1
 - chore: 升级spockframework至 2.4-M7-groovy-4.0
 - chore: 新增javafaker 1.0.2
