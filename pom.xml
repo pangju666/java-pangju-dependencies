@@ -28,17 +28,17 @@
 		<boofcv.version>1.2.4</boofcv.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
 		<commons-compress.version>1.28.0</commons-compress.version>
-		<commons-configuration2.version>2.12.0</commons-configuration2.version>
+		<commons-configuration2.version>2.13.0</commons-configuration2.version>
 		<commons-crypto.version>1.2.0</commons-crypto.version>
 		<commons-csv.version>1.14.1</commons-csv.version>
 		<commons-exec.version>1.5.0</commons-exec.version>
-		<commons-io.version>2.20.0</commons-io.version>
+		<commons-io.version>2.21.0</commons-io.version>
 		<commons-lang3.version>3.18.0</commons-lang3.version>
 		<commons-math3.version>3.6.1</commons-math3.version>
 		<commons-numbers-core.version>1.2</commons-numbers-core.version>
 		<commons-net.version>3.12.0</commons-net.version>
 		<commons-text.version>1.14.0</commons-text.version>
-		<commons-validator.version>1.10.0</commons-validator.version>
+		<commons-validator.version>1.10.1</commons-validator.version>
 		<disruptor.version>4.0.0</disruptor.version>
 		<dom4j.version>2.2.0</dom4j.version>
 		<dynamic-datasource.version>4.3.1</dynamic-datasource.version>
@@ -54,7 +54,7 @@
 		<java-jwt.version>4.5.0</java-jwt.version>
 		<javafaker.version>1.0.2</javafaker.version>
 		<jsoup.version>1.21.2</jsoup.version>
-		<lz4.version>1.8.0</lz4.version>
+		<lz4-java.version>1.9.0</lz4-java.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
 		<mybatis.version>3.5.19</mybatis.version>
@@ -63,7 +63,7 @@
 		<p6spy.version>3.9.1</p6spy.version>
 		<pdfbox.version>3.0.6</pdfbox.version>
 		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
-		<poi.version>5.4.1</poi.version>
+		<poi.version>5.5.1</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
 		<poi-tl-plugin-highlight.version>1.0.0</poi-tl-plugin-highlight.version>
 		<poi-tl-plugin-markdown.version>1.0.3</poi-tl-plugin-markdown.version>
@@ -72,13 +72,13 @@
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.44.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
-		<spockframework.version>2.4-M6-groovy-4.0</spockframework.version>
+		<spockframework.version>2.4-M7-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.5.7</spring-boot.version>
-		<spring-vault.version>4.0.0-RC1</spring-vault.version>
+		<spring-vault.version>4.0.0</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
 		<twelvemonkeys.version>3.12.0</twelvemonkeys.version>
-		<xz.version>1.10</xz.version>
+		<xz.version>1.11</xz.version>
 		<zero-allocation-hashing.version>0.27ea1</zero-allocation-hashing.version>
 		<zip4j.version>2.11.5</zip4j.version>
 	</properties>
@@ -107,6 +107,12 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- https://mvnrepository.com/artifact/at.yawk.lz4/lz4-java -->
+			<dependency>
+				<groupId>at.yawk.lz4</groupId>
+				<artifactId>lz4-java</artifactId>
+				<version>${lz4-java.version}</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/ch.obermuhlner/big-math -->
 			<dependency>
 				<groupId>ch.obermuhlner</groupId>
@@ -445,12 +451,6 @@
 				<groupId>org.jsoup</groupId>
 				<artifactId>jsoup</artifactId>
 				<version>${jsoup.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.lz4/lz4-java -->
-			<dependency>
-				<groupId>org.lz4</groupId>
-				<artifactId>lz4-java</artifactId>
-				<version>${lz4.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
 			<dependency>
