@@ -39,6 +39,7 @@
 		<commons-net.version>3.12.0</commons-net.version>
 		<commons-text.version>1.14.0</commons-text.version>
 		<commons-validator.version>1.10.1</commons-validator.version>
+		<datafaker.version>2.5.3</datafaker.version>
 		<disruptor.version>4.0.0</disruptor.version>
 		<dom4j.version>2.2.0</dom4j.version>
 		<dynamic-datasource.version>4.3.1</dynamic-datasource.version>
@@ -52,7 +53,6 @@
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.0</java-jwt.version>
-		<javafaker.version>1.0.2</javafaker.version>
 		<jsoup.version>1.21.2</jsoup.version>
 		<lz4-java.version>1.9.0</lz4-java.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -189,12 +189,6 @@
 				<artifactId>jai-imageio-jpeg2000</artifactId>
 				<version>${jai-imageio.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
-			<dependency>
-				<groupId>com.github.javafaker</groupId>
-				<artifactId>javafaker</artifactId>
-				<version>${javafaker.version}</version>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.github.seancfoley/ipaddress -->
 			<dependency>
 				<groupId>com.github.seancfoley</groupId>
@@ -265,6 +259,12 @@
 				<groupId>net.coobird</groupId>
 				<artifactId>thumbnailator</artifactId>
 				<version>${thumbnailator.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/net.datafaker/datafaker -->
+			<dependency>
+				<groupId>net.datafaker</groupId>
+				<artifactId>datafaker</artifactId>
+				<version>${datafaker.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/net.jodah/expiringmap -->
 			<dependency>
