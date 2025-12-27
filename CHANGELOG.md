@@ -2,40 +2,40 @@
 
 ## [1.1.0] 2025.08.31
 
-- chore: 升级spring-boot-starter-parent至 3.5.8
+- chore: 升级spring-boot-starter-parent至 3.5.9
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
-- chore: 升级redisson至 3.52.0
+- chore: 升级redisson至 4.0.0
 - chore: 升级sa-token至 1.44.0
 - chore: 新增hanlp portable-1.8.6
 - chore: 去除jpinyin
 - chore: 去除xmpbox
 - chore: 去除commons-validator
-- chore: 新增batik-rasterizer-ext 1.17
-- chore: 新增batik-extension 1.17
-- chore: 新增batik-anim 1.17
-- chore: 新增batik-svggen 1.17
-- chore: 新增batik-transcoder 1.17
-- chore: 新增com.twelvemonkeys 3.12.0
+- chore: 新增batik-rasterizer-ext 1.19
+- chore: 新增batik-extension 1.19
+- chore: 新增batik-anim 1.19
+- chore: 新增batik-svggen 1.19
+- chore: 新增batik-transcoder 1.19
+- chore: 新增com.twelvemonkeys 3.13.0
 - chore: 新增boofcv-core 1.2.4
-- chore: 新增lz4-java 1.9.0
+- chore: 新增lz4-java 1.10.2
 - chore: 新增poi-scratchpad 5.4.1
 - chore: 新增poi-tl-plugin-highlight 1.0.0
 - chore: 新增poi-tl-plugin-markdown 1.0.3
 - chore: 升级commons-collections4至 4.5.0
 - chore: 升级commons-compress至 1.28.0
-- chore: 升级commons-exec至 1.5.0
+- chore: 升级commons-exec至 1.6.0
 - chore: 升级commons-configuration2至 2.13.0
-- chore: 升级mybatis-plus至 3.5.14
+- chore: 升级mybatis-plus至 3.5.15
 - chore: 升级mybatis-spring至 3.0.5
 - chore: 升级smart-doc-maven-plugin至 3.1.0
 - chore: 新增jsoup 1.21.2
 - chore: 新增ipaddress 5.5.1
 - chore: 升级commons-io至 2.21.0
 - chore: 升级commons-net至 3.12.0
-- chore: 升级commons-text至 1.14.0
+- chore: 升级commons-text至 1.15.0
 - chore: 升级poi至 5.5.1
-- chore: 升级spockframework至 2.4-M7-groovy-4.0
+- chore: 升级spockframework至 2.4-groovy-4.0
 - chore: 新增datafaker 2.5.3
 - chore: 升级dom4j至 2.2.0
 - chore: 升级fastexcel至 1.3.0
@@ -50,3 +50,5 @@
 - chore: 新增zero-allocation-hashing 0.27ea1
 - chore: 新增zip4j 2.11.5
 - chore：升级xz至 1.11
+- chore：新增fastutil 8.5.18
+- chore：升级dynamic-datasource至 4.5.0
