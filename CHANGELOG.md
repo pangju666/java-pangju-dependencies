@@ -50,5 +50,4 @@
 - chore: 新增zero-allocation-hashing 0.27ea1
 - chore: 新增zip4j 2.11.5
 - chore：升级xz至 1.11
-- chore：新增fastutil 8.5.18
 - chore：升级dynamic-datasource至 4.5.0
