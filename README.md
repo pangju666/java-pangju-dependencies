@@ -23,6 +23,8 @@ Pangju Dependencies 是一个基于 Spring Boot 官方父 POM（spring-boot-star
 - 引入常用 BOM 并管理多模块依赖的版本
 - 固化常用插件版本与基础配置，提升构建稳定性
 
+## [文档](https://pangju666.github.io/pangju-java-doc/dependencies/getting-started.html)
+
 ## 快速开始
 
 1. 作为父 POM 使用（推荐）
