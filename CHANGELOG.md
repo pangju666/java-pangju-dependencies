@@ -5,7 +5,7 @@
 - chore: 升级spring-boot-starter-parent至 3.5.9
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
-- chore: 升级redisson至 4.0.0
+- chore: 升级redisson至 3.52.0
 - chore: 升级sa-token至 1.44.0
 - chore: 新增hanlp portable-1.8.6
 - chore: 去除jpinyin
@@ -40,7 +40,7 @@
 - chore: 升级dom4j至 2.2.0
 - chore: 升级fastexcel至 1.3.0
 - chore: 升级pdfbox至 3.0.6
-- chore: 升级spring-vault至 4.0.0
+- chore: 升级spring-vault至 3.2.0
 - chore: 升级tika至 3.2.3
 - chore: 升级thumbnailator至 0.4.21
 - chore: 升级gmavenplus-plugin至 4.2.1

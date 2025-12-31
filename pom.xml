@@ -67,14 +67,14 @@
 		<poi-tl.version>1.12.2</poi-tl.version>
 		<poi-tl-plugin-highlight.version>1.0.0</poi-tl-plugin-highlight.version>
 		<poi-tl-plugin-markdown.version>1.0.3</poi-tl-plugin-markdown.version>
-		<redisson.version>4.0.0</redisson.version>
+		<redisson.version>3.52.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.44.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-groovy-4.0</spockframework.version>
 		<spring-boot.version>3.5.9</spring-boot.version>
-		<spring-vault.version>4.0.0</spring-vault.version>
+		<spring-vault.version>3.2.0</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
 		<twelvemonkeys.version>3.13.0</twelvemonkeys.version>
