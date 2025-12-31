@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.9</version>
+		<version>4.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -59,7 +59,7 @@
 		<metadata-extractor.version>2.19.0</metadata-extractor.version>
 		<mybatis.version>3.5.19</mybatis.version>
 		<mybatis-plus.version>3.5.15</mybatis-plus.version>
-		<mybatis-spring.version>3.0.5</mybatis-spring.version>
+		<mybatis-spring.version>4.0.0</mybatis-spring.version>
 		<p6spy.version>3.9.1</p6spy.version>
 		<pdfbox.version>3.0.6</pdfbox.version>
 		<pdfbox-jbig2-imageio.version>3.0.4</pdfbox-jbig2-imageio.version>
@@ -72,8 +72,8 @@
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.44.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
-		<spockframework.version>2.4-groovy-4.0</spockframework.version>
-		<spring-boot.version>3.5.9</spring-boot.version>
+		<spockframework.version>2.4-groovy-5.0</spockframework.version>
+		<spring-boot.version>4.0.1</spring-boot.version>
 		<spring-vault.version>4.0.0</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
@@ -142,7 +142,7 @@
 			<!-- https://mvnrepository.com/artifact/com.baomidou/dynamic-datasource-spring-boot3-starter -->
 			<dependency>
 				<groupId>com.baomidou</groupId>
-				<artifactId>dynamic-datasource-spring-boot3-starter</artifactId>
+				<artifactId>dynamic-datasource-spring-boot4-starter</artifactId>
 				<version>${dynamic-datasource.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-bom -->

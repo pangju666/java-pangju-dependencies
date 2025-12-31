@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [1.1.0] 2025.08.31
+## [1.1.0] 2025.12.31
 
 - chore: 升级spring-boot-starter-parent至 3.5.9
 - chore: 升级commons-csv至 1.14.1
@@ -51,3 +51,13 @@
 - chore: 新增zip4j 2.11.5
 - chore：升级xz至 1.11
 - chore：升级dynamic-datasource至 4.5.0
+
+## [2.0.0] 2025.12.31
+
+- chore: 升级spring-boot-starter-parent至 4.0.1
+- chore: 去除dynamic-datasource-spring-boot3-starter
+- chore: 新增dynamic-datasource-spring-boot4-starter 4.5.0
+- chore: 升级mybatis-spring至 4.0.0
+- chore: 升级redisson至 4.0.0
+- chore: 升级spring-vault至 4.0.0
+- chore: 升级spockframework至 2.4-groovy-5.0
