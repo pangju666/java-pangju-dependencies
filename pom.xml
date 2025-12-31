@@ -12,7 +12,7 @@
 	</parent>
 	<groupId>io.github.pangju666</groupId>
 	<artifactId>pangju-dependencies</artifactId>
-	<version>1.1.0</version>
+	<version>2.0.0</version>
 	<packaging>pom</packaging>
 
 	<name>pangju-dependencies</name>

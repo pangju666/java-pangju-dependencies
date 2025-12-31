@@ -1,11 +1,9 @@
 # CHANGELOG
 
-## [1.1.0] 2025.12.31
-
-- chore: 升级spring-boot-starter-parent至 3.5.9
+## [2.0.0] 2025.12.31
+- chore: 升级spring-boot-starter-parent至 4.0.1
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
-- chore: 升级redisson至 4.0.0
 - chore: 升级sa-token至 1.44.0
 - chore: 新增hanlp portable-1.8.6
 - chore: 去除jpinyin
@@ -27,7 +25,6 @@
 - chore: 升级commons-exec至 1.6.0
 - chore: 升级commons-configuration2至 2.13.0
 - chore: 升级mybatis-plus至 3.5.15
-- chore: 升级mybatis-spring至 3.0.5
 - chore: 升级smart-doc-maven-plugin至 3.1.0
 - chore: 新增jsoup 1.21.2
 - chore: 新增ipaddress 5.5.1
@@ -35,12 +32,10 @@
 - chore: 升级commons-net至 3.12.0
 - chore: 升级commons-text至 1.15.0
 - chore: 升级poi至 5.5.1
-- chore: 升级spockframework至 2.4-groovy-4.0
 - chore: 新增datafaker 2.5.3
 - chore: 升级dom4j至 2.2.0
 - chore: 升级fastexcel至 1.3.0
 - chore: 升级pdfbox至 3.0.6
-- chore: 升级spring-vault至 4.0.0
 - chore: 升级tika至 3.2.3
 - chore: 升级thumbnailator至 0.4.21
 - chore: 升级gmavenplus-plugin至 4.2.1
@@ -50,11 +45,6 @@
 - chore: 新增zero-allocation-hashing 0.27ea1
 - chore: 新增zip4j 2.11.5
 - chore：升级xz至 1.11
-- chore：升级dynamic-datasource至 4.5.0
-
-## [2.0.0] 2025.12.31
-
-- chore: 升级spring-boot-starter-parent至 4.0.1
 - chore: 去除dynamic-datasource-spring-boot3-starter
 - chore: 新增dynamic-datasource-spring-boot4-starter 4.5.0
 - chore: 升级mybatis-spring至 4.0.0
