@@ -35,7 +35,6 @@
 - chore: 升级commons-net至 3.12.0
 - chore: 升级commons-text至 1.15.0
 - chore: 升级poi至 5.5.1
-- chore: 升级spockframework至 2.4-groovy-4.0
 - chore: 新增datafaker 2.5.3
 - chore: 升级dom4j至 2.2.0
 - chore: 升级fastexcel至 1.3.0
@@ -51,3 +50,5 @@
 - chore: 新增zip4j 2.11.5
 - chore：升级xz至 1.11
 - chore：升级dynamic-datasource至 4.5.0
+- chore: 去除spockframework
+- chore: 新增spock-bom 2.4-groovy-4.0

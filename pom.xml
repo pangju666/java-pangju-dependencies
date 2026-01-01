@@ -72,7 +72,7 @@
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.44.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
-		<spockframework.version>2.4-groovy-4.0</spockframework.version>
+		<spock.version>2.4-groovy-4.0</spock.version>
 		<spring-boot.version>3.5.9</spring-boot.version>
 		<spring-vault.version>3.2.0</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
@@ -386,6 +386,66 @@
 				<artifactId>tika-parsers-standard-package</artifactId>
 				<version>${tika.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-image-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-image-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-microsoft-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-microsoft-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-audiovideo-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-audiovideo-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-font-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-font-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-html-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-html-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-miscoffice-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-miscoffice-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-ocr-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-ocr-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-pdf-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-pdf-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-text-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-text-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-xml-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-xml-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-anim -->
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
@@ -488,17 +548,13 @@
 				<artifactId>reflections</artifactId>
 				<version>${reflections.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-core -->
+			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-bom -->
 			<dependency>
 				<groupId>org.spockframework</groupId>
-				<artifactId>spock-core</artifactId>
-				<version>${spockframework.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-spring -->
-			<dependency>
-				<groupId>org.spockframework</groupId>
-				<artifactId>spock-spring</artifactId>
-				<version>${spockframework.version}</version>
+				<artifactId>spock-bom</artifactId>
+				<version>${spock.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.springframework.vault/spring-vault-core -->
 			<dependency>
