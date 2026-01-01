@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [1.1.0] 2025.08.31
+## [1.1.0] 2026.1.1
 
 - chore: 修改父级为spring-boot-dependencies 3.5.9
 - chore: 升级commons-csv至 1.14.1
