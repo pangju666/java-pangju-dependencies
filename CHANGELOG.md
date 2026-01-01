@@ -2,7 +2,7 @@
 
 ## [1.1.0] 2025.08.31
 
-- chore: 升级spring-boot-starter-parent至 3.5.9
+- chore: 修改父级为spring-boot-dependencies 3.5.9
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
 - chore: 升级redisson至 3.52.0
