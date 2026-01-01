@@ -42,7 +42,6 @@
 - chore: 升级gmavenplus-plugin至 4.2.1
 - chore: 升级maven-gpg-plugin至 3.2.8
 - chore: 升级smart-doc-maven.plugin至 3.1.2
-- chore: 修改commons-lang3版本为3.18.0
 - chore: 新增zero-allocation-hashing 0.27ea1
 - chore: 新增zip4j 2.11.5
 - chore：升级xz至 1.11
@@ -52,4 +51,5 @@
 - chore: 升级redisson至 4.0.0
 - chore: 升级spring-vault至 4.0.0
 - chore: 去除spockframework
-- chore: 新增spock-bom 2.4-groovy-5.0
+- chore: 新增spock-bom 2.4-groovy-4.0
+- chore: 降级groovy为4.0.29
