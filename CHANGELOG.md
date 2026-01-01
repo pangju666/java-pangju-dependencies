@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [2.0.0] 2025.12.31
+## [2.0.0] 2026.1.1
 - chore: 升级spring-boot-starter-parent至 4.0.1
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
@@ -50,4 +50,5 @@
 - chore: 升级mybatis-spring至 4.0.0
 - chore: 升级redisson至 4.0.0
 - chore: 升级spring-vault至 4.0.0
-- chore: 升级spockframework至 2.4-groovy-5.0
+- chore: 去除spockframework
+- chore: 新增spock-bom 2.4-groovy-5.0

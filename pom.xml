@@ -488,16 +488,10 @@
 				<artifactId>reflections</artifactId>
 				<version>${reflections.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-core -->
+			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-spock-bom -->
 			<dependency>
 				<groupId>org.spockframework</groupId>
-				<artifactId>spock-core</artifactId>
-				<version>${spockframework.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.spockframework/spock-spring -->
-			<dependency>
-				<groupId>org.spockframework</groupId>
-				<artifactId>spock-spring</artifactId>
+				<artifactId>spock-bom</artifactId>
 				<version>${spockframework.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.springframework.vault/spring-vault-core -->
