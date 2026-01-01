@@ -28,7 +28,7 @@
 - chore: 升级commons-configuration2至 2.13.0
 - chore: 升级mybatis-plus至 3.5.15
 - chore: 升级mybatis-spring至 3.0.5
-- chore: 升级smart-doc-maven-plugin至 3.1.0
+- chore: 去除smart-doc-maven-plugin
 - chore: 新增jsoup 1.21.2
 - chore: 新增ipaddress 5.5.1
 - chore: 升级commons-io至 2.21.0
