@@ -1,7 +1,8 @@
 # CHANGELOG
 
 ## [2.0.0] 2026.1.1
-- chore: 升级spring-boot-starter-parent至 4.0.1
+
+- chore: 修改父级为spring-boot-dependencies 4.0.1
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
 - chore: 升级sa-token至 1.44.0

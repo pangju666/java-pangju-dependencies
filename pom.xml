@@ -6,7 +6,7 @@
 	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
+		<artifactId>spring-boot-dependencies</artifactId>
 		<version>4.0.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -20,6 +20,7 @@
 	<url>https://github.com/pangju666/java-pangju-dependencies</url>
 
 	<properties>
+		<java.verison>17</java.verison>
 		<maven.compiler.release>${java.version}</maven.compiler.release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -73,7 +74,6 @@
 		<sa-token.version>1.44.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-groovy-5.0</spockframework.version>
-		<spring-boot.version>4.0.1</spring-boot.version>
 		<spring-vault.version>4.0.0</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
@@ -386,6 +386,66 @@
 				<artifactId>tika-parsers-standard-package</artifactId>
 				<version>${tika.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-image-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-image-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-microsoft-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-microsoft-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-audiovideo-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-audiovideo-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-font-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-font-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-html-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-html-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-miscoffice-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-miscoffice-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-ocr-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-ocr-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-pdf-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-pdf-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-text-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-text-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-xml-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-xml-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-anim -->
 			<dependency>
 				<groupId>org.apache.xmlgraphics</groupId>
@@ -519,12 +579,6 @@
 	<build>
 		<pluginManagement>
 			<plugins>
-				<!-- https://mvnrepository.com/artifact/com.ly.smart-doc/smart-doc-maven-plugin -->
-				<plugin>
-					<groupId>com.ly.smart-doc</groupId>
-					<artifactId>smart-doc-maven-plugin</artifactId>
-					<version>${smart-doc-maven.plugin.version}</version>
-				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -539,6 +593,14 @@
 							</goals>
 						</execution>
 					</executions>
+				</plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<parameters>true</parameters>
+					</configuration>
 				</plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
 				<plugin>
