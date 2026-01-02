@@ -20,7 +20,7 @@
 	<url>https://github.com/pangju666/java-pangju-dependencies</url>
 
 	<properties>
-		<java.verison>17</java.verison>
+		<java.version>17</java.version>
 		<maven.compiler.release>${java.version}</maven.compiler.release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
