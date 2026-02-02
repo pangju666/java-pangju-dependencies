@@ -1,8 +1,8 @@
 # CHANGELOG
 
-## [2.0.0] 2026.1.1
+## [2.0.0] 2026.2.2
 
-- chore: 修改父级为spring-boot-dependencies 4.0.1
+- chore: 修改父级为spring-boot-dependencies 4.0.2
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
 - chore: 升级sa-token至 1.44.0
@@ -16,8 +16,8 @@
 - chore: 新增batik-svggen 1.19
 - chore: 新增batik-transcoder 1.19
 - chore: 新增com.twelvemonkeys 3.13.0
-- chore: 新增boofcv-core 1.2.4
-- chore: 新增lz4-java 1.10.2
+- chore: 新增boofcv-core 1.3.0
+- chore: 新增lz4-java 1.10.3
 - chore: 新增poi-scratchpad 5.4.1
 - chore: 新增poi-tl-plugin-highlight 1.0.0
 - chore: 新增poi-tl-plugin-markdown 1.0.3
@@ -25,9 +25,9 @@
 - chore: 升级commons-compress至 1.28.0
 - chore: 升级commons-exec至 1.6.0
 - chore: 升级commons-configuration2至 2.13.0
-- chore: 升级mybatis-plus至 3.5.15
+- chore: 升级mybatis-plus至 3.5.16
 - chore: 升级smart-doc-maven-plugin至 3.1.0
-- chore: 新增jsoup 1.21.2
+- chore: 新增jsoup 1.22.1
 - chore: 新增ipaddress 5.5.1
 - chore: 升级commons-io至 2.21.0
 - chore: 升级commons-net至 3.12.0
@@ -42,13 +42,14 @@
 - chore: 升级gmavenplus-plugin至 4.2.1
 - chore: 升级maven-gpg-plugin至 3.2.8
 - chore: 升级smart-doc-maven.plugin至 3.1.2
-- chore: 新增zero-allocation-hashing 0.27ea1
+- chore: 新增zero-allocation-hashing 2026.0
 - chore: 新增zip4j 2.11.5
 - chore：升级xz至 1.11
 - chore: 去除dynamic-datasource-spring-boot3-starter
 - chore: 新增dynamic-datasource-spring-boot4-starter 4.5.0
 - chore: 升级mybatis-spring至 4.0.0
-- chore: 升级redisson至 4.0.0
+- chore: 升级mybatis-spring-boot-starter至 4.0.1
+- chore: 升级redisson至 4.1.0
 - chore: 升级spring-vault至 4.0.0
 - chore: 去除spockframework
 - chore: 新增spock-bom 2.4-groovy-4.0
