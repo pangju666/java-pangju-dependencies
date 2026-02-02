@@ -39,7 +39,7 @@
 - chore: 升级pdfbox至 3.0.6
 - chore: 升级tika至 3.2.3
 - chore: 升级thumbnailator至 0.4.21
-- chore: 升级gmavenplus-plugin至 4.2.1
+- chore: 升级gmavenplus-plugin至 4.3.0
 - chore: 升级maven-gpg-plugin至 3.2.8
 - chore: 升级smart-doc-maven.plugin至 3.1.2
 - chore: 新增zero-allocation-hashing 2026.0
@@ -52,5 +52,4 @@
 - chore: 升级redisson至 4.1.0
 - chore: 升级spring-vault至 4.0.0
 - chore: 去除spockframework
-- chore: 新增spock-bom 2.4-groovy-4.0
-- chore: 降级groovy为4.0.29
+- chore: 新增spock-bom 2.4-groovy-5.0
