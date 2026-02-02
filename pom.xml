@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-dependencies</artifactId>
-		<version>3.5.9</version>
+		<version>3.5.10</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -68,7 +68,7 @@
 		<poi-tl.version>1.12.2</poi-tl.version>
 		<poi-tl-plugin-highlight.version>1.0.0</poi-tl-plugin-highlight.version>
 		<poi-tl-plugin-markdown.version>1.0.3</poi-tl-plugin-markdown.version>
-		<redisson.version>4.1.0</redisson.version>
+		<redisson.version>3.52.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.44.0</sa-token.version>
