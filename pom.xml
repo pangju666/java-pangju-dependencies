@@ -3,11 +3,11 @@
 		 xmlns="http://maven.apache.org/POM/4.0.0"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-dependencies</artifactId>
-		<version>4.0.2</version>
+		<version>4.0.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -39,7 +39,7 @@
 		<commons-net.version>3.12.0</commons-net.version>
 		<commons-text.version>1.15.0</commons-text.version>
 		<commons-validator.version>1.10.1</commons-validator.version>
-		<datafaker.version>2.5.3</datafaker.version>
+		<datafaker.version>2.5.4</datafaker.version>
 		<disruptor.version>4.0.0</disruptor.version>
 		<dom4j.version>2.2.0</dom4j.version>
 		<dynamic-datasource.version>4.5.0</dynamic-datasource.version>
@@ -49,10 +49,10 @@
 		<gmavenplus.plugin.version>4.3.0</gmavenplus.plugin.version>
 		<guava.version>33.5.0-jre</guava.version>
 		<hanlp.version>portable-1.8.6</hanlp.version>
-		<ipaddress.version>5.5.1</ipaddress.version>
+		<ipaddress.version>5.6.1</ipaddress.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
-		<java-jwt.version>4.5.0</java-jwt.version>
+		<java-jwt.version>4.5.1</java-jwt.version>
 		<jsoup.version>1.22.1</jsoup.version>
 		<lz4-java.version>1.10.3</lz4-java.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -68,19 +68,19 @@
 		<poi-tl.version>1.12.2</poi-tl.version>
 		<poi-tl-plugin-highlight.version>1.0.0</poi-tl-plugin-highlight.version>
 		<poi-tl-plugin-markdown.version>1.0.3</poi-tl-plugin-markdown.version>
-		<redisson.version>4.1.0</redisson.version>
+		<redisson.version>4.2.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.3.0</resilience4j.version>
 		<sa-token.version>1.44.0</sa-token.version>
 		<smart-doc-maven.plugin.version>3.1.2</smart-doc-maven.plugin.version>
 		<spockframework.version>2.4-groovy-5.0</spockframework.version>
-		<spring-vault.version>4.0.0</spring-vault.version>
+		<spring-vault.version>4.0.1</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
-		<twelvemonkeys.version>3.13.0</twelvemonkeys.version>
+		<twelvemonkeys.version>3.13.1</twelvemonkeys.version>
 		<xz.version>1.11</xz.version>
 		<zero-allocation-hashing.version>2026.0</zero-allocation-hashing.version>
-		<zip4j.version>2.11.5</zip4j.version>
+		<zip4j.version>2.11.6</zip4j.version>
 	</properties>
 
 	<licenses>
