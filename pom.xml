@@ -40,7 +40,7 @@
 		<commons-net.version>3.12.0</commons-net.version>
 		<commons-text.version>1.15.0</commons-text.version>
 		<commons-validator.version>1.10.1</commons-validator.version>
-		<datafaker.version>2.5.3</datafaker.version>
+		<datafaker.version>2.5.4</datafaker.version>
 		<disruptor.version>4.0.0</disruptor.version>
 		<dom4j.version>2.2.0</dom4j.version>
 		<dynamic-datasource.version>4.5.0</dynamic-datasource.version>
@@ -50,10 +50,10 @@
 		<gmavenplus.plugin.version>4.2.1</gmavenplus.plugin.version>
 		<guava.version>33.5.0-jre</guava.version>
 		<hanlp.version>portable-1.8.6</hanlp.version>
-		<ipaddress.version>5.5.1</ipaddress.version>
+		<ipaddress.version>5.6.1</ipaddress.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
-		<java-jwt.version>4.5.0</java-jwt.version>
+		<java-jwt.version>4.5.1</java-jwt.version>
 		<jsoup.version>1.22.1</jsoup.version>
 		<lz4-java.version>1.10.3</lz4-java.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -76,10 +76,10 @@
 		<spring-vault.version>3.2.0</spring-vault.version>
 		<tika.version>3.2.3</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
-		<twelvemonkeys.version>3.13.0</twelvemonkeys.version>
+		<twelvemonkeys.version>3.13.1</twelvemonkeys.version>
 		<xz.version>1.11</xz.version>
 		<zero-allocation-hashing.version>2026.0</zero-allocation-hashing.version>
-		<zip4j.version>2.11.5</zip4j.version>
+		<zip4j.version>2.11.6</zip4j.version>
 	</properties>
 
 	<licenses>
