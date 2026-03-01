@@ -2,7 +2,7 @@
 
 ## [1.1.0] 2026.2.2
 
-- chore: 修改父级为spring-boot-dependencies 3.5.10
+- chore: 修改父级为spring-boot-dependencies 3.5.11
 - chore: 升级commons-csv至 1.14.1
 - chore: 升级guava至 33.5.0-jre
 - chore: 升级redisson至 3.52.0
@@ -45,7 +45,6 @@
 - chore: 升级gmavenplus-plugin至 4.2.1
 - chore: 升级maven-gpg-plugin至 3.2.8
 - chore: 升级smart-doc-maven.plugin至 3.1.2
-- chore: 修改commons-lang3版本为3.18.0
 - chore: 新增zero-allocation-hashing 2026.0
 - chore: 新增zip4j 2.11.6
 - chore：升级xz至 1.11
