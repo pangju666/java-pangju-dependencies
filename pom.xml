@@ -16,7 +16,7 @@
 	<packaging>pom</packaging>
 
 	<name>pangju-dependencies</name>
-    <description>胖橘依赖和插件管理，继承自spring-boot-starter-parent</description>
+	<description>依赖和插件管理，基于 spring-boot-dependencies 的通用 BOM 项目</description>
 	<url>https://github.com/pangju666/java-pangju-dependencies</url>
 
 	<properties>
