@@ -39,7 +39,7 @@
 ## 📖 文档
 
 更详细的使用说明和 API
-文档请参考：[在线文档](https://pangju666.github.io/pangju-java-doc/dependencies/getting-started.html)
+文档请参考：[在线文档](https://pangju666.github.io/pangju-java-doc/v1/dependencies/getting-started.html)
 
 ## 🚀 快速开始
 
