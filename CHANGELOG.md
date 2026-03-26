@@ -57,6 +57,6 @@
 - chore: 去除poi-tl-plugin-highlight
 - chore: 去除poi-tl-plugin-markdown
 
-## [1.2.0] 2026.3.25
+## [1.2.0] 2026.3.26
 
 - chore: 修改父级为spring-boot-dependencies 3.5.12
