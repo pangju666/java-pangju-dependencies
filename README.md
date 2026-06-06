@@ -56,7 +56,7 @@
 <parent>
     <groupId>io.github.pangju666</groupId>
     <artifactId>pangju-dependencies</artifactId>
-    <version>1.1.0</version>
+    <version>1.3.0</version>
     <relativePath/>
 </parent>
 ```
@@ -71,7 +71,7 @@
         <dependency>
             <groupId>io.github.pangju666</groupId>
             <artifactId>pangju-dependencies</artifactId>
-            <version>1.1.0</version>
+            <version>1.3.0</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>

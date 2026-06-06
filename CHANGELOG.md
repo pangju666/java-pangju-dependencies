@@ -60,3 +60,18 @@
 ## [1.2.0] 2026.3.26
 
 - chore: 修改父级为spring-boot-dependencies 3.5.12
+
+## [1.3.0] 2026.6.7
+
+- chore: 升级spring-boot-dependencies至3.5.14
+- chore: 升级lz4-java至1.11.0
+- chore: 升级java-jwt至4.5.2
+- chore: 升级metadata-extractor至2.20.0
+- chore: 升级guava至33.6.0-jre
+- chore: 升级commons-io至2.22.0
+- chore: 升级commons-configuration2至2.15.1
+- chore: 升级commons-numbers-core至1.3
+- chore: 升级pdfbox-jbig2-imageio至3.0.5
+- chore: 升级tika至3.3.1
+- chore: 升级boofcv至1.4.0
+- chore: 升级jsoup至1.22.2
