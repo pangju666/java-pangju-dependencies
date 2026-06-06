@@ -70,5 +70,5 @@
 - chore: 升级boofcv至1.4.0
 - chore: 升级jsoup至1.22.2
 - chore: 升级redisson至4.4.0
-- chore: 去除spring-vault-core
+- chore: 升级spring-vault-core至4.1.0-RC1
 - chore: 升级gmavenplus-plugin至5.0.0
