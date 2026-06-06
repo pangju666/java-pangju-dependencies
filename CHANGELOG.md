@@ -54,3 +54,21 @@
 - chore: 去除jpinyin
 - chore: 去除xmpbox
 - chore: 去除expiringmap
+
+## [2.1.0] 2026.6.7
+
+- chore: 升级spring-boot-dependencies至4.1.0-RC1
+- chore: 升级lz4-java至1.11.0
+- chore: 升级java-jwt至4.5.2
+- chore: 升级metadata-extractor至2.20.0
+- chore: 升级guava至33.6.0-jre
+- chore: 升级commons-io至2.22.0
+- chore: 升级commons-configuration2至2.15.1
+- chore: 升级commons-numbers-core至1.3
+- chore: 升级pdfbox-jbig2-imageio至3.0.5
+- chore: 升级tika至3.3.1
+- chore: 升级boofcv至1.4.0
+- chore: 升级jsoup至1.22.2
+- chore: 升级redisson至4.4.0
+- chore: 去除spring-vault-core
+- chore: 升级gmavenplus-plugin至5.0.0
