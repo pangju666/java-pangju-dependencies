@@ -75,3 +75,6 @@
 - chore: 升级tika至3.3.1
 - chore: 升级boofcv至1.4.0
 - chore: 升级jsoup至1.22.2
+- chore: 新增javacv 1.5.13
+- chore: 新增tesseract-platform 5.5.2-1.5.13
+- chore: 新增ffmpeg-platform 8.0.1-1.5.13
