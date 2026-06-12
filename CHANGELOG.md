@@ -72,3 +72,6 @@
 - chore: 升级redisson至4.4.0
 - chore: 升级spring-vault-core至4.1.0-RC1
 - chore: 升级gmavenplus-plugin至5.0.0
+- chore: 新增javacv 1.5.13
+- chore: 新增tesseract-platform 5.5.2-1.5.13
+- chore: 新增ffmpeg-platform 8.0.1-1.5.13

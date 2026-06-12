@@ -52,6 +52,9 @@
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.2</java-jwt.version>
+		<javacv.version>1.5.13</javacv.version>
+		<ffmpeg.version>8.0.1</ffmpeg.version>
+		<tesseract.version>5.5.2</tesseract.version>
 		<jsoup.version>1.22.2</jsoup.version>
 		<lz4-java.version>1.11.0</lz4-java.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -459,6 +462,24 @@
 				<groupId>org.boofcv</groupId>
 				<artifactId>boofcv-core</artifactId>
 				<version>${boofcv.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.bytedeco/javacv -->
+			<dependency>
+				<groupId>org.bytedeco</groupId>
+				<artifactId>javacv</artifactId>
+				<version>${javacv.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.bytedeco/ffmpeg-platform -->
+			<dependency>
+				<groupId>org.bytedeco</groupId>
+				<artifactId>ffmpeg-platform</artifactId>
+				<version>${ffmpeg.version}-${javacv.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.bytedeco/tesseract-platform -->
+			<dependency>
+				<groupId>org.bytedeco</groupId>
+				<artifactId>tesseract-platform</artifactId>
+				<version>${tesseract.version}-${javacv.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
 			<dependency>
