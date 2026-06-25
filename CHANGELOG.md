@@ -75,3 +75,4 @@
 - chore: 新增javacv 1.5.13
 - chore: 新增tesseract-platform 5.5.2-1.5.13
 - chore: 新增ffmpeg-platform 8.0.1-1.5.13
+- chore: 新增ffmpeg-platform-gpl 8.0.1-1.5.13

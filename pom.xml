@@ -475,6 +475,12 @@
 				<artifactId>ffmpeg-platform</artifactId>
 				<version>${ffmpeg.version}-${javacv.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.bytedeco/ffmpeg-platform-gpl -->
+			<dependency>
+				<groupId>org.bytedeco</groupId>
+				<artifactId>ffmpeg-platform-gpl</artifactId>
+				<version>${ffmpeg.version}-${javacv.version}</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/tesseract-platform -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
