@@ -82,3 +82,9 @@
 - chore: 升级datafaker至2.7.0
 - chore: 升级spring-vault至3.2.1
 - chore: 升级central-publishing-maven-plugin至0.11.0
+- chore: 新增tesseract 5.5.2-1.5.13
+- chore: 新增ffmpeg 8.0.1-1.5.13
+- chore: 新增opencv 4.13.0-1.5.13
+- chore: 新增opencv-platform 8.0.1-1.5.13
+- chore: 新增leptonica 1.87.0-1.5.13
+- chore: 新增leptonica-platform 1.87.0-1.5.13
