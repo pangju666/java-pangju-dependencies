@@ -75,17 +75,17 @@
 - chore: 升级tika至3.3.1
 - chore: 升级boofcv至1.4.0
 - chore: 升级jsoup至1.22.2
-- chore: 新增javacv 1.5.13
-- chore: 新增tesseract-platform 5.5.2-1.5.13
-- chore: 新增ffmpeg-platform 8.0.1-1.5.13
-- chore: 新增ffmpeg-platform-gpl 8.0.1-1.5.13
 - chore: 升级datafaker至2.7.0
 - chore: 升级spring-vault至3.2.1
 - chore: 升级central-publishing-maven-plugin至0.11.0
-- chore: 新增tesseract 5.5.2-1.5.13
-- chore: 新增ffmpeg 8.0.1-1.5.13
-- chore: 新增opencv 4.13.0-1.5.13
-- chore: 新增opencv-platform 8.0.1-1.5.13
-- chore: 新增leptonica 1.87.0-1.5.13
-- chore: 新增leptonica-platform 1.87.0-1.5.13
-- chore: 新增opencv-platform-gpu 8.0.1-1.5.13
+- chore: 新增javacv 1.5.11
+- chore: 新增ffmpeg 7.1-1.5.11
+- chore: 新增ffmpeg-platform 7.1-1.5.11
+- chore: 新增ffmpeg-platform-gpl 7.1-1.5.11
+- chore: 新增opencv 4.10.0-1.5.11
+- chore: 新增opencv-platform 4.10.0-1.5.11
+- chore: 新增opencv-platform-gpu 4.10.0-1.5.11
+- chore: 新增tesseract 5.5.0-1.5.11
+- chore: 新增tesseract-platform 5.5.0-1.5.11
+- chore: 新增leptonica 1.85.0-1.5.11
+- chore: 新增leptonica-platform 1.85.0-1.5.11
