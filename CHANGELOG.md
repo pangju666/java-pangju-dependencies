@@ -74,14 +74,12 @@
 - chore: 升级redisson至4.6.1
 - chore: 升级spring-vault至4.1.0
 - chore: 升级central-publishing-maven-plugin至0.11.0
-- chore: 新增javacv 1.5.11
-- chore: 新增ffmpeg 7.1-1.5.11
-- chore: 新增ffmpeg-platform 7.1-1.5.11
-- chore: 新增ffmpeg-platform-gpl 7.1-1.5.11
+- chore: 新增javacv 1.5.13
+- chore: 新增ffmpeg 8.0.1-1.5.13
+- chore: 新增ffmpeg-platform 8.0.1-1.5.13
+- chore: 新增ffmpeg-platform-gpl 8.0.1-1.5.13
 - chore: 新增opencv 4.10.0-1.5.11
 - chore: 新增opencv-platform 4.10.0-1.5.11
 - chore: 新增opencv-platform-gpu 4.10.0-1.5.11
-- chore: 新增tesseract 5.5.0-1.5.11
-- chore: 新增tesseract-platform 5.5.0-1.5.11
-- chore: 新增leptonica 1.85.0-1.5.11
-- chore: 新增leptonica-platform 1.85.0-1.5.11
+- chore: 新增tesseract 5.5.2-1.5.13
+- chore: 新增tesseract-platform 5.5.2-1.5.13
