@@ -63,7 +63,7 @@
 
 ## [1.3.0] 2026.6.7
 
-- chore: 升级spring-boot-dependencies至3.5.14
+- chore: 升级spring-boot-dependencies至3.5.16
 - chore: 升级lz4-java至1.11.0
 - chore: 升级java-jwt至4.5.2
 - chore: 升级metadata-extractor至2.20.0
@@ -79,3 +79,6 @@
 - chore: 新增tesseract-platform 5.5.2-1.5.13
 - chore: 新增ffmpeg-platform 8.0.1-1.5.13
 - chore: 新增ffmpeg-platform-gpl 8.0.1-1.5.13
+- chore: 升级datafaker至2.7.0
+- chore: 升级spring-vault至3.2.1
+- chore: 升级central-publishing-maven-plugin至0.11.0
