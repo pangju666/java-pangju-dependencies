@@ -88,3 +88,4 @@
 - chore: 新增opencv-platform 8.0.1-1.5.13
 - chore: 新增leptonica 1.87.0-1.5.13
 - chore: 新增leptonica-platform 1.87.0-1.5.13
+- chore: 新增opencv-platform-gpu 8.0.1-1.5.13

@@ -513,6 +513,12 @@
 				<artifactId>opencv-platform</artifactId>
 				<version>${opencv.version}-${javacv.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.bytedeco/opencv-platform-gpu -->
+			<dependency>
+				<groupId>org.bytedeco</groupId>
+				<artifactId>opencv-platform-gpu</artifactId>
+				<version>${opencv.version}-${javacv.version}</version>
+			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/tesseract -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
