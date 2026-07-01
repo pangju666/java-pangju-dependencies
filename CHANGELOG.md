@@ -57,7 +57,7 @@
 
 ## [2.1.0] 2026.6.7
 
-- chore: 升级spring-boot-dependencies至4.1.0-RC1
+- chore: 升级spring-boot-dependencies至4.1.0
 - chore: 升级lz4-java至1.11.0
 - chore: 升级java-jwt至4.5.2
 - chore: 升级metadata-extractor至2.20.0
