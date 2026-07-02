@@ -53,7 +53,7 @@
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.5.2</java-jwt.version>
-		<javacv.version>1.5.13</javacv.version>
+		<javacpp.version>1.5.13</javacpp.version>
 		<jsoup.version>1.22.2</jsoup.version>
 		<lz4-java.version>1.11.0</lz4-java.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
@@ -62,7 +62,7 @@
 		<mybatis-plus.version>3.5.16</mybatis-plus.version>
 		<mybatis-spring.version>4.0.0</mybatis-spring.version>
 		<mybatis-spring-boot.version>4.0.1</mybatis-spring-boot.version>
-		<opencv-javacv.version>4.10.0-1.5.11</opencv-javacv.version>
+		<opencv.version>4.13.0</opencv.version>
 		<p6spy.version>3.9.1</p6spy.version>
 		<pdfbox.version>3.0.7</pdfbox.version>
 		<pdfbox-jbig2-imageio.version>3.0.5</pdfbox-jbig2-imageio.version>
@@ -468,55 +468,61 @@
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>javacv</artifactId>
-				<version>${javacv.version}</version>
+				<version>${javacpp.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.bytedeco/javacv-platform -->
+			<dependency>
+				<groupId>org.bytedeco</groupId>
+				<artifactId>javacv-platform</artifactId>
+				<version>${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/ffmpeg -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>ffmpeg</artifactId>
-				<version>${ffmpeg.version}-${javacv.version}</version>
+				<version>${ffmpeg.version}-${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/ffmpeg-platform -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>ffmpeg-platform</artifactId>
-				<version>${ffmpeg.version}-${javacv.version}</version>
+				<version>${ffmpeg.version}-${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/ffmpeg-platform-gpl -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>ffmpeg-platform-gpl</artifactId>
-				<version>${ffmpeg.version}-${javacv.version}</version>
+				<version>${ffmpeg.version}-${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/opencv -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>opencv</artifactId>
-				<version>${opencv-javacv.version}</version>
+				<version>${opencv.version}-${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/opencv-platform -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>opencv-platform</artifactId>
-				<version>${opencv-javacv.version}</version>
+				<version>${opencv.version}-${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/opencv-platform-gpu -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>opencv-platform-gpu</artifactId>
-				<version>${opencv-javacv.version}</version>
+				<version>${opencv.version}-${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/tesseract -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>tesseract</artifactId>
-				<version>${tesseract.version}-${javacv.version}</version>
+				<version>${tesseract.version}-${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/tesseract-platform -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
 				<artifactId>tesseract-platform</artifactId>
-				<version>${tesseract.version}-${javacv.version}</version>
+				<version>${tesseract.version}-${javacpp.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
 			<dependency>
