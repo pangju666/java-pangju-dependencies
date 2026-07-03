@@ -90,3 +90,5 @@
 - chore: 新增leptonica-platform 1.87.0-1.5.13
 - chore: 新增numpy 0.3.31-1.5.13
 - chore: 新增numpy-platform 0.3.31-1.5.13
+- chore: 新增javacpp 1.5.13
+- chore: 新增javacpp-platform 1.5.13
