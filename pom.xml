@@ -702,7 +702,28 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-javadoc-plugin</artifactId>
 					<configuration>
-						<doclint>none</doclint>
+						<encoding>UTF-8</encoding>
+						<docencoding>UTF-8</docencoding>
+						<additionalJOptions>
+							<additionalJOption>-Xdoclint:-missing</additionalJOption>
+						</additionalJOptions>
+						<tags>
+							<tag>
+								<name>apiNote</name>
+								<placement>a</placement>
+								<head>API说明：</head>
+							</tag>
+							<tag>
+								<name>implSpec</name>
+								<placement>a</placement>
+								<head>实现规范：</head>
+							</tag>
+							<tag>
+								<name>implNote</name>
+								<placement>a</placement>
+								<head>实现细节：</head>
+							</tag>
+						</tags>
 					</configuration>
 					<executions>
 						<execution>
