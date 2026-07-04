@@ -96,3 +96,4 @@
 - chore: 新增numpy-platform 0.3.31-1.5.13
 - chore: 新增javacpp 1.5.13
 - chore: 新增javacpp-platform 1.5.13
+- build: 修改javadoc插件默认配置
