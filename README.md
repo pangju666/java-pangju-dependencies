@@ -39,7 +39,7 @@
 ## 📖 文档
 
 更详细的使用说明和 API
-文档请参考：[在线文档](https://pangju666.github.io/pangju-java-doc/v2/dependencies/getting-started.html)
+文档请参考：[在线文档](https://pangju666.github.io/pangju-java-doc/v1/dependencies/getting-started.html)
 
 ## 🚀 快速开始
 
@@ -56,7 +56,7 @@
 <parent>
     <groupId>io.github.pangju666</groupId>
     <artifactId>pangju-dependencies</artifactId>
-    <version>2.1.0</version>
+    <version>1.3.0</version>
     <relativePath/>
 </parent>
 ```
@@ -71,7 +71,7 @@
         <dependency>
             <groupId>io.github.pangju666</groupId>
             <artifactId>pangju-dependencies</artifactId>
-            <version>2.1.0</version>
+            <version>1.3.0</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
