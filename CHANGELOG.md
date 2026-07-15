@@ -58,7 +58,7 @@
 ## [2.1.0] 2026.6.7
 
 - chore: 升级spring-boot-dependencies至4.1.0
-- chore: 升级lz4-java至1.11.0
+- chore: 升级lz4-java至1.11.1
 - chore: 升级java-jwt至4.5.2
 - chore: 升级metadata-extractor至2.20.0
 - chore: 升级guava至33.6.0-jre
@@ -69,7 +69,7 @@
 - chore: 升级tika至3.3.1
 - chore: 升级boofcv至1.4.0
 - chore: 升级jsoup至1.22.2
-- chore: 升级gmavenplus-plugin至5.0.0
+- chore: 升级gmavenplus-plugin至5.1.0
 - chore: 升级datafaker至2.7.0
 - chore: 升级redisson至4.6.1
 - chore: 升级spring-vault至4.1.0
@@ -92,3 +92,4 @@
 - chore: 新增numpy-platform 0.3.31-1.5.13
 - chore: 新增javacpp 1.5.13
 - chore: 新增javacpp-platform 1.5.13
+- chore: 升级mybatis-plus至 3.5.17
