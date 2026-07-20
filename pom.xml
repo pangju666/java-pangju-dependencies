@@ -84,6 +84,7 @@
 		<xz.version>1.12</xz.version>
 		<zero-allocation-hashing.version>2026.0</zero-allocation-hashing.version>
 		<zip4j.version>2.11.6</zip4j.version>
+		<zstd-jni.version>1.5.7-4</zstd-jni.version>
 	</properties>
 
 	<licenses>
@@ -179,6 +180,12 @@
 				<groupId>com.github.jai-imageio</groupId>
 				<artifactId>jai-imageio-jpeg2000</artifactId>
 				<version>${jai-imageio.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/com.github.luben/zstd-jni -->
+			<dependency>
+				<groupId>com.github.luben</groupId>
+				<artifactId>zstd-jni</artifactId>
+				<version>${zstd-jni.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/com.github.seancfoley/ipaddress -->
 			<dependency>
