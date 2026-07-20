@@ -83,7 +83,7 @@
 		<xz.version>1.12</xz.version>
 		<zero-allocation-hashing.version>2026.0</zero-allocation-hashing.version>
 		<zip4j.version>2.11.6</zip4j.version>
-		<zstd-jni.version>1.5.7-4</zstd-jni.version>
+		<zstd-jni.version>1.5.7-11</zstd-jni.version>
 	</properties>
 
 	<licenses>
