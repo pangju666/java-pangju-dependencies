@@ -97,3 +97,4 @@
 - chore: 新增javacpp 1.5.13
 - chore: 新增javacpp-platform 1.5.13
 - chore: 升级mybatis-plus至 3.5.17
+- chore: 新增zstd-jni 1.5.7-4
