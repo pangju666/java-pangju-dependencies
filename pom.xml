@@ -55,7 +55,6 @@
 		<javacpp.version>1.5.14</javacpp.version>
 		<jsoup.version>1.23.1</jsoup.version>
 		<leptonica.version>1.87.0</leptonica.version>
-		<lz4-java.version>1.11.2</lz4-java.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.21.0</metadata-extractor.version>
 		<mybatis.version>3.5.19</mybatis.version>
@@ -110,12 +109,6 @@
 
 	<dependencyManagement>
 		<dependencies>
-			<!-- https://mvnrepository.com/artifact/at.yawk.lz4/lz4-java -->
-			<dependency>
-				<groupId>at.yawk.lz4</groupId>
-				<artifactId>lz4-java</artifactId>
-				<version>${lz4-java.version}</version>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/ch.obermuhlner/big-math -->
 			<dependency>
 				<groupId>ch.obermuhlner</groupId>

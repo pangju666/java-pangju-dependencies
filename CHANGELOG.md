@@ -102,3 +102,4 @@
 - chore: 升级commons-collections4至4.6.0
 - chore: 升级pdfbox至3.0.8
 - chore: 升级mybatis-spring至 3.0.6
+- chore: 去除lz4-java
