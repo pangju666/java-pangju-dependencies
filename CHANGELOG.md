@@ -101,3 +101,4 @@
 - chore: 升级mybatis-spring至 4.1.0
 - chore: 升级mybatis-spring-boot-starter至 4.1.0
 - chore: 去除boofcv-core
+- chore: 去除lz4-java
