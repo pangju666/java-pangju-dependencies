@@ -26,9 +26,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<batik.version>1.19</batik.version>
 		<big-math.version>2.3.2</big-math.version>
-		<boofcv.version>1.4.0</boofcv.version>
 		<central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
-		<commons-collections4.version>4.5.0</commons-collections4.version>
+		<commons-collections4.version>4.6.0</commons-collections4.version>
 		<commons-compress.version>1.28.0</commons-compress.version>
 		<commons-configuration2.version>2.15.1</commons-configuration2.version>
 		<commons-crypto.version>1.2.0</commons-crypto.version>
@@ -52,21 +51,22 @@
 		<ipaddress.version>5.6.2</ipaddress.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
-		<java-jwt.version>4.5.2</java-jwt.version>
-		<javacpp.version>1.5.13</javacpp.version>
-		<jsoup.version>1.22.2</jsoup.version>
+		<java-jwt.version>4.6.0</java-jwt.version>
+		<javacpp.version>1.5.14</javacpp.version>
+		<jsoup.version>1.23.1</jsoup.version>
 		<leptonica.version>1.87.0</leptonica.version>
-		<lz4-java.version>1.11.1</lz4-java.version>
+		<lz4-java.version>1.11.2</lz4-java.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
-		<metadata-extractor.version>2.20.0</metadata-extractor.version>
+		<metadata-extractor.version>2.21.0</metadata-extractor.version>
 		<mybatis.version>3.5.19</mybatis.version>
 		<mybatis-plus.version>3.5.17</mybatis-plus.version>
-		<mybatis-spring.version>3.0.5</mybatis-spring.version>
+		<mybatis-spring.version>3.0.6</mybatis-spring.version>
+		<mybatis-spring-boot-starter.version>3.0.5</mybatis-spring-boot-starter.version>
 		<numpy.version>2.4.2</numpy.version>
 		<openblas.version>0.3.31</openblas.version>
 		<opencv.version>4.13.0</opencv.version>
 		<p6spy.version>3.9.1</p6spy.version>
-		<pdfbox.version>3.0.7</pdfbox.version>
+		<pdfbox.version>3.0.8</pdfbox.version>
 		<pdfbox-jbig2-imageio.version>3.0.5</pdfbox-jbig2-imageio.version>
 		<poi.version>5.5.1</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
@@ -77,9 +77,9 @@
 		<spock.version>2.4-groovy-4.0</spock.version>
 		<spring-vault.version>3.2.1</spring-vault.version>
 		<tesseract.version>5.5.2</tesseract.version>
-		<tika.version>3.3.1</tika.version>
+		<tika.version>3.3.2</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
-		<twelvemonkeys.version>3.13.1</twelvemonkeys.version>
+		<twelvemonkeys.version>3.14.0</twelvemonkeys.version>
 		<xz.version>1.12</xz.version>
 		<zero-allocation-hashing.version>2026.0</zero-allocation-hashing.version>
 		<zip4j.version>2.11.6</zip4j.version>
@@ -467,12 +467,6 @@
 				<artifactId>batik-transcoder</artifactId>
 				<version>${batik.version}</version>
 			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.boofcv/boofcv-core -->
-			<dependency>
-				<groupId>org.boofcv</groupId>
-				<artifactId>boofcv-core</artifactId>
-				<version>${boofcv.version}</version>
-			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.bytedeco/javacpp -->
 			<dependency>
 				<groupId>org.bytedeco</groupId>
@@ -627,7 +621,7 @@
 			<dependency>
 				<groupId>org.mybatis.spring.boot</groupId>
 				<artifactId>mybatis-spring-boot-starter</artifactId>
-				<version>${mybatis-spring.version}</version>
+				<version>${mybatis-spring-boot-starter.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.redisson/redisson -->
 			<dependency>
