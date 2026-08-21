@@ -1,5 +1,53 @@
 # CHANGELOG
 
+## [2.1.0] 2026.8.18
+
+- chore: 升级spring-boot-dependencies至4.1.0
+- chore: 升级lz4-java至1.11.2
+- chore: 升级java-jwt至4.6.0
+- chore: 升级metadata-extractor至2.21.0
+- chore: 升级guava至33.6.0-jre
+- chore: 升级commons-io至2.22.0
+- chore: 升级commons-configuration2至2.15.1
+- chore: 升级commons-numbers-core至1.3
+- chore: 升级pdfbox-jbig2-imageio至3.0.5
+- chore: 升级tika至3.3.2
+- chore: 升级boofcv至1.4.0
+- chore: 升级jsoup至1.22.2
+- chore: 升级gmavenplus-plugin至5.1.0
+- chore: 升级datafaker至2.7.0
+- chore: 升级redisson至4.7.0
+- chore: 升级spring-vault至4.1.0
+- chore: 升级central-publishing-maven-plugin至0.11.0
+- chore: 新增javacv 1.5.14
+- chore: 新增javacv-platform 1.5.14
+- chore: 新增ffmpeg 8.1.2-1.5.14
+- chore: 新增ffmpeg-platform 8.1.2-1.5.14
+- chore: 新增ffmpeg-platform-gpl 8.1.2-1.5.14
+- chore: 新增opencv 4.14.0-1.5.14
+- chore: 新增opencv-platform 4.14.0-1.5.14
+- chore: 新增opencv-platform-gpu 4.14.0-1.5.14
+- chore: 新增tesseract 5.5.3-1.5.14
+- chore: 新增tesseract-platform 5.5.3-1.5.14
+- chore: 新增openblas 0.3.34-1.5.14
+- chore: 新增openblas-platform0.3.34-1.5.14
+- chore: 新增leptonica 1.87.0-1.5.14
+- chore: 新增leptonica-platform 1.87.0-1.5.14
+- chore: 新增numpy 2.5.1-1.5.14
+- chore: 新增numpy-platform 2.5.1-1.5.14
+- chore: 新增javacpp 1.5.14
+- chore: 新增javacpp-platform 1.5.14
+- chore: 升级mybatis-plus至 3.5.17
+- chore: 新增zstd-jni 1.5.7-13
+- chore: 升级twelvemonkeys 3.14.0
+- chore: 升级commons-collections4至 4.6.0
+- chore: 升级pdfbox至 3.0.8
+- chore: 升级jsoup至 1.23.1
+- chore: 升级mybatis-spring至 4.1.0
+- chore: 升级mybatis-spring-boot-starter至 4.1.0
+- chore: 去除boofcv-core
+- chore: 去除lz4-java
+
 ## [2.0.0] 2026.3.24
 
 - chore: 修改父级为spring-boot-dependencies 4.0.4
@@ -54,51 +102,3 @@
 - chore: 去除jpinyin
 - chore: 去除xmpbox
 - chore: 去除expiringmap
-
-## [2.1.0] 2026.8.18
-
-- chore: 升级spring-boot-dependencies至4.1.0
-- chore: 升级lz4-java至1.11.2
-- chore: 升级java-jwt至4.6.0
-- chore: 升级metadata-extractor至2.21.0
-- chore: 升级guava至33.6.0-jre
-- chore: 升级commons-io至2.22.0
-- chore: 升级commons-configuration2至2.15.1
-- chore: 升级commons-numbers-core至1.3
-- chore: 升级pdfbox-jbig2-imageio至3.0.5
-- chore: 升级tika至3.3.2
-- chore: 升级boofcv至1.4.0
-- chore: 升级jsoup至1.22.2
-- chore: 升级gmavenplus-plugin至5.1.0
-- chore: 升级datafaker至2.7.0
-- chore: 升级redisson至4.7.0
-- chore: 升级spring-vault至4.1.0
-- chore: 升级central-publishing-maven-plugin至0.11.0
-- chore: 新增javacv 1.5.14
-- chore: 新增javacv-platform 1.5.14
-- chore: 新增ffmpeg 8.1.2-1.5.14
-- chore: 新增ffmpeg-platform 8.1.2-1.5.14
-- chore: 新增ffmpeg-platform-gpl 8.1.2-1.5.14
-- chore: 新增opencv 4.14.0-1.5.14
-- chore: 新增opencv-platform 4.14.0-1.5.14
-- chore: 新增opencv-platform-gpu 4.14.0-1.5.14
-- chore: 新增tesseract 5.5.3-1.5.14
-- chore: 新增tesseract-platform 5.5.3-1.5.14
-- chore: 新增openblas 0.3.34-1.5.14
-- chore: 新增openblas-platform0.3.34-1.5.14
-- chore: 新增leptonica 1.87.0-1.5.14
-- chore: 新增leptonica-platform 1.87.0-1.5.14
-- chore: 新增numpy 2.5.1-1.5.14
-- chore: 新增numpy-platform 2.5.1-1.5.14
-- chore: 新增javacpp 1.5.14
-- chore: 新增javacpp-platform 1.5.14
-- chore: 升级mybatis-plus至 3.5.17
-- chore: 新增zstd-jni 1.5.7-13
-- chore: 升级twelvemonkeys 3.14.0
-- chore: 升级commons-collections4至 4.6.0
-- chore: 升级pdfbox至 3.0.8
-- chore: 升级jsoup至 1.23.1
-- chore: 升级mybatis-spring至 4.1.0
-- chore: 升级mybatis-spring-boot-starter至 4.1.0
-- chore: 去除boofcv-core
-- chore: 去除lz4-java
