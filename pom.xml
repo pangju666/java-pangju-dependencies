@@ -16,7 +16,7 @@
 	<packaging>pom</packaging>
 
 	<name>pangju-dependencies</name>
-	<description>依赖和插件管理，基于 spring-boot-dependencies 的通用 BOM 项目</description>
+	<description>基于 Spring Boot Dependencies 的依赖与插件版本统一管理项目（BOM）。</description>
 	<url>https://github.com/pangju666/java-pangju-dependencies</url>
 
 	<properties>
