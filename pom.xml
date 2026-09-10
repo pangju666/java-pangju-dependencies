@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-dependencies</artifactId>
-		<version>4.1.0</version>
+		<version>4.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -46,14 +46,14 @@
 		<ffmpeg.version>8.1.2</ffmpeg.version>
 		<gpg.plugin.version>3.2.8</gpg.plugin.version>
 		<gmavenplus.plugin.version>5.1.0</gmavenplus.plugin.version>
-		<guava.version>33.6.0-jre</guava.version>
+		<guava.version>33.7.1-jre</guava.version>
 		<hanlp.version>portable-1.8.6</hanlp.version>
 		<ipaddress.version>5.6.2</ipaddress.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.6.0</java-jwt.version>
 		<javacpp.version>1.5.14</javacpp.version>
-		<jsoup.version>1.23.1</jsoup.version>
+		<jsoup.version>1.23.2</jsoup.version>
 		<leptonica.version>1.87.0</leptonica.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
 		<metadata-extractor.version>2.21.0</metadata-extractor.version>
@@ -72,17 +72,17 @@
 		<redisson.version>4.7.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.4.0</resilience4j.version>
-		<sa-token.version>1.45.0</sa-token.version>
+		<sa-token.version>1.46.0</sa-token.version>
 		<spockframework.version>2.4-groovy-5.0</spockframework.version>
 		<spring-vault.version>4.1.0</spring-vault.version>
 		<tesseract.version>5.5.3</tesseract.version>
-		<tika.version>3.3.2</tika.version>
+		<tika.version>4.0.0</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
-		<twelvemonkeys.version>3.14.0</twelvemonkeys.version>
+		<twelvemonkeys.version>3.15.0</twelvemonkeys.version>
 		<xz.version>1.12</xz.version>
 		<zero-allocation-hashing.version>2026.0</zero-allocation-hashing.version>
 		<zip4j.version>2.11.6</zip4j.version>
-		<zstd-jni.version>1.5.7-13</zstd-jni.version>
+		<zstd-jni.version>1.5.7-16</zstd-jni.version>
 	</properties>
 
 	<licenses>
