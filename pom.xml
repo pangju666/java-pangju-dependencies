@@ -364,6 +364,7 @@
 				<artifactId>tika-core</artifactId>
 				<version>${tika.version}</version>
 			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-annotation-processor -->
 			<dependency>
 				<groupId>org.apache.tika</groupId>
 				<artifactId>tika-annotation-processor</artifactId>
