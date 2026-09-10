@@ -1,8 +1,4 @@
 <p align="center">
-  <a href="https://github.com/pangju666/java-pangju-dependencies/releases">
-    <img alt="GitHub release" src="https://img.shields.io/github/release/pangju666/java-pangju-dependencies.svg?style=flat-square&include_prereleases" />
-  </a>
-
   <a href="https://central.sonatype.com/search?q=g:io.github.pangju666%20a:pangju-dependencies&smo=true">
     <img alt="maven" src="https://img.shields.io/maven-central/v/io.github.pangju666/pangju-dependencies.svg?style=flat-square">
   </a>
@@ -16,8 +12,8 @@
 
 # Pangju Dependencies
 
-`Pangju Dependencies` 是一个基于 `Spring Boot Dependencies` 的依赖与插件版本统一管理项目（BOM）。它旨在为各类 Java
-项目提供一套经过验证的、开箱即用的三方库版本组合，简化依赖配置，提升项目一致性，避免版本冲突。
+`Pangju Dependencies` 是一个基于 `Spring Boot Dependencies` 的依赖与插件版本统一管理项目（BOM）。
+它旨在为各类 Java 项目提供一套经过验证的、开箱即用的三方库版本组合，简化依赖配置，提升项目一致性，避免版本冲突。
 
 ## 🌟 核心特性
 
@@ -30,16 +26,24 @@
 
 本项目管理了包括但不限于以下常用组件的版本：
 
-- **数据库/持久层**: MyBatis Plus, Dynamic Datasource, P6Spy, Redisson
+- **数据库/持久层**: MyBatis, MyBatis Plus, Dynamic Datasource, P6Spy, Redisson, MySQL Connector
 - **安全/鉴权**: Sa-Token, Java JWT, Jasypt
 - **文档/报表**: Apache POI, POI-tl, Apache Tika, PDFBox, Fastexcel
-- **工具类**: Guava, Commons 系列, MapStruct, Thumbnailator, Jsoup
-- **其他**: Resilience4j, Spock Framework, HanLP, BoofCV
+- **工具类**: Guava, Commons 系列, MapStruct, Thumbnailator, Jsoup, Reflections, Big Math, IPAddress, Disruptor,
+  DataFaker, Zero Allocation Hashing
+- **图像处理**: JAI ImageIO, TwelveMonkeys, Metadata Extractor, Apache Batik
+- **压缩/编码**: Zip4j, Zstd-JNI, XZ
+- **计算机视觉/OCR**: OpenCV, Tesseract, FFmpeg, JavaCV, JavaCPP, Leptonica, NumPy, OpenBLAS
+- **中文处理**: HanLP
+- **容错/微服务**: Resilience4j
+- **测试框架**: Spock Framework, Testcontainers
+- **Spring 生态**: Spring Vault
+- **XML/HTML 处理**: Dom4j
 
 ## 📖 文档
 
 更详细的使用说明和 API
-文档请参考：[在线文档](https://pangju666.github.io/pangju-java-doc/v1/dependencies/getting-started.html)
+文档请参考：[在线文档](https://pangju666.github.io/pangju-java-doc/v2/dependencies/getting-started.html)
 
 ## 🚀 快速开始
 
