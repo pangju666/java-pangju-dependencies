@@ -369,66 +369,8 @@
 				<groupId>org.apache.tika</groupId>
 				<artifactId>tika-parsers-standard-package</artifactId>
 				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-image-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-image-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-microsoft-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-microsoft-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-audiovideo-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-audiovideo-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-font-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-font-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-html-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-html-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-miscoffice-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-miscoffice-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-ocr-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-ocr-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-pdf-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-pdf-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-text-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-text-module</artifactId>
-				<version>${tika.version}</version>
-			</dependency>
-			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-xml-module -->
-			<dependency>
-				<groupId>org.apache.tika</groupId>
-				<artifactId>tika-parser-xml-module</artifactId>
-				<version>${tika.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-anim -->
 			<dependency>
