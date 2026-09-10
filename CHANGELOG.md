@@ -1,21 +1,21 @@
 # CHANGELOG
 
-## [1.3.0] 2026.8.18
+## [1.3.0] 2026.9.10
 
-- chore: 升级spring-boot-dependencies至3.5.16
-- chore: 升级lz4-java至1.11.2
-- chore: 升级java-jwt至4.6.0
-- chore: 升级metadata-extractor至2.21.0
-- chore: 升级guava至33.6.0-jre
-- chore: 升级commons-io至2.22.0
-- chore: 升级commons-configuration2至2.15.1
-- chore: 升级commons-numbers-core至1.3
-- chore: 升级pdfbox-jbig2-imageio至3.0.5
-- chore: 升级tika至3.3.2
-- chore: 升级jsoup至1.23.1
-- chore: 升级datafaker至2.7.0
-- chore: 升级spring-vault至3.2.1
-- chore: 升级central-publishing-maven-plugin至0.11.0
+- chore: 升级spring-boot-dependencies至 3.5.16
+- chore: 升级lz4-java至 1.11.2
+- chore: 升级java-jwt至 4.6.0
+- chore: 升级metadata-extractor至 2.21.0
+- chore: 升级guava至 33.7.1-jre
+- chore: 升级commons-io至 2.22.0
+- chore: 升级commons-configuration2至 2.15.1
+- chore: 升级commons-numbers-core至 1.3
+- chore: 升级pdfbox-jbig2-imageio至 3.0.5
+- chore: 升级tika至 4.0.0
+- chore: 升级jsoup至 1.23.2
+- chore: 升级datafaker至 2.7.0
+- chore: 升级spring-vault至 3.2.1
+- chore: 升级central-publishing-maven-plugin至 0.11.0
 - chore: 新增javacv 1.5.14
 - chore: 新增javacv-platform 1.5.14
 - chore: 新增ffmpeg 8.1.2-1.5.14
@@ -34,14 +34,15 @@
 - chore: 新增numpy-platform 2.5.1-1.5.14
 - chore: 新增javacpp 1.5.14
 - chore: 新增javacpp-platform 1.5.14
-- chore: 升级mybatis-plus至3.5.17
-- chore: 新增zstd-jni 1.5.7-11
+- chore: 升级mybatis-plus至 3.5.17
+- chore: 新增zstd-jni 1.5.7-16
 - chore: 去除boofcv-core
-- chore: 升级twelvemonkeys至3.14.0
-- chore: 升级commons-collections4至4.6.0
-- chore: 升级pdfbox至3.0.8
+- chore: 升级twelvemonkeys至 3.15.0
+- chore: 升级commons-collections4至 4.6.0
+- chore: 升级pdfbox至 3.0.8
 - chore: 升级mybatis-spring至 3.0.6
 - chore: 去除lz4-java
+- chore: 升级sa-token至 1.46.0
 
 ## [1.2.0] 2026.3.26
 
