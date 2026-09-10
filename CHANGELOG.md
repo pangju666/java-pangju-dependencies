@@ -48,7 +48,6 @@
 - chore: 去除boofcv-core
 - chore: 去除lz4-java
 - chore: 升级sa-token至 1.46.0
-- chore: 适配新版tika-parsers-standard-package，去除tika-parser-xxx-module
 - chore: 新增tika-annotation-processor 4.0.0
 
 ## [2.0.0] 2026.3.24

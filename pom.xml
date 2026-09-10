@@ -76,6 +76,7 @@
 		<spockframework.version>2.4-groovy-5.0</spockframework.version>
 		<spring-vault.version>4.1.0</spring-vault.version>
 		<tesseract.version>5.5.3</tesseract.version>
+		<testcontainers.version>2.0.5</testcontainers.version>
 		<tika.version>4.0.0</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
 		<twelvemonkeys.version>3.15.0</twelvemonkeys.version>
@@ -377,7 +378,84 @@
 				<artifactId>tika-parsers-standard-package</artifactId>
 				<version>${tika.version}</version>
 				<type>pom</type>
-				<scope>import</scope>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-audiovideo-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-audiovideo-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-cad-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-cad-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-code-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-code-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-font-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-font-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-html-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-html-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-image-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-image-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-microsoft-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-microsoft-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-miscoffice-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-miscoffice-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-ocr-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-ocr-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-pdf-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-pdf-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-pkg-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-pkg-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-text-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-text-module</artifactId>
+				<version>${tika.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.apache.tika/tika-parser-xml-module -->
+			<dependency>
+				<groupId>org.apache.tika</groupId>
+				<artifactId>tika-parser-xml-module</artifactId>
+				<version>${tika.version}</version>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-anim -->
 			<dependency>
@@ -596,6 +674,14 @@
 				<groupId>org.springframework.vault</groupId>
 				<artifactId>spring-vault-core</artifactId>
 				<version>${spring-vault.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.testcontainers/testcontainers-bom -->
+			<dependency>
+				<groupId>org.testcontainers</groupId>
+				<artifactId>testcontainers-bom</artifactId>
+				<version>${testcontainers.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.tukaani/xz -->
 			<dependency>
