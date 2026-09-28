@@ -4,7 +4,7 @@
 
 - chore: 升级spring-boot-dependencies至 3.5.16
 - chore: 升级lz4-java至 1.11.2
-- chore: 升级java-jwt至 4.6.0
+- chore: 升级java-jwt至 4.6.1
 - chore: 升级metadata-extractor至 2.21.0
 - chore: 升级guava至 33.7.1-jre
 - chore: 升级commons-io至 2.22.0
@@ -35,9 +35,9 @@
 - chore: 新增javacpp 1.5.14
 - chore: 新增javacpp-platform 1.5.14
 - chore: 升级mybatis-plus至 3.5.17
-- chore: 新增zstd-jni 1.5.7-16
+- chore: 新增zstd-jni 1.5.7-20
 - chore: 去除boofcv-core
-- chore: 升级twelvemonkeys至 3.15.0
+- chore: 升级twelvemonkeys至 3.15.2
 - chore: 升级commons-collections4至 4.6.0
 - chore: 升级pdfbox至 3.0.8
 - chore: 升级mybatis-spring至 3.0.6
