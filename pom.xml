@@ -26,7 +26,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<batik.version>1.19</batik.version>
 		<big-math.version>2.3.2</big-math.version>
-		<central-publishing-maven-plugin.version>0.11.0</central-publishing-maven-plugin.version>
+		<central-publishing-maven-plugin.version>0.12.0</central-publishing-maven-plugin.version>
 		<commons-collections4.version>4.6.0</commons-collections4.version>
 		<commons-compress.version>1.28.0</commons-compress.version>
 		<commons-configuration2.version>2.15.1</commons-configuration2.version>
@@ -41,17 +41,17 @@
 		<datafaker.version>2.7.0</datafaker.version>
 		<disruptor.version>4.0.0</disruptor.version>
 		<dom4j.version>2.2.0</dom4j.version>
-		<dynamic-datasource.version>4.5.0</dynamic-datasource.version>
+		<dynamic-datasource.version>4.6.0</dynamic-datasource.version>
 		<fastexcel.version>1.3.0</fastexcel.version>
 		<ffmpeg.version>8.1.2</ffmpeg.version>
 		<gpg.plugin.version>3.2.8</gpg.plugin.version>
 		<gmavenplus.plugin.version>5.1.0</gmavenplus.plugin.version>
-		<guava.version>33.7.1-jre</guava.version>
+		<guava.version>33.7.2-jre</guava.version>
 		<hanlp.version>portable-1.8.6</hanlp.version>
 		<ipaddress.version>5.6.2</ipaddress.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
-		<java-jwt.version>4.6.1</java-jwt.version>
+		<java-jwt.version>4.6.2</java-jwt.version>
 		<javacpp.version>1.5.14</javacpp.version>
 		<jsoup.version>1.23.2</jsoup.version>
 		<leptonica.version>1.87.0</leptonica.version>
@@ -69,7 +69,7 @@
 		<pdfbox-jbig2-imageio.version>3.0.5</pdfbox-jbig2-imageio.version>
 		<poi.version>5.5.1</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
-		<redisson.version>4.7.0</redisson.version>
+		<redisson.version>4.8.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
 		<resilience4j.version>2.4.0</resilience4j.version>
 		<sa-token.version>1.46.0</sa-token.version>
@@ -77,13 +77,13 @@
 		<spring-vault.version>4.1.0</spring-vault.version>
 		<tesseract.version>5.5.3</tesseract.version>
 		<testcontainers.version>2.0.5</testcontainers.version>
-		<tika.version>4.0.0</tika.version>
+		<tika.version>4.1.0</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
-		<twelvemonkeys.version>3.15.2</twelvemonkeys.version>
+		<twelvemonkeys.version>3.15.3</twelvemonkeys.version>
 		<xz.version>1.12</xz.version>
 		<zero-allocation-hashing.version>2026.0</zero-allocation-hashing.version>
 		<zip4j.version>2.11.6</zip4j.version>
-		<zstd-jni.version>1.5.7-20</zstd-jni.version>
+		<zstd-jni.version>1.5.7-24</zstd-jni.version>
 	</properties>
 
 	<licenses>
