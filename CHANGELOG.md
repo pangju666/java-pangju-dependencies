@@ -49,6 +49,7 @@
 - chore: 去除lz4-java
 - chore: 升级sa-token至 1.46.0
 - chore: 新增testcontainers-bom 2.0.5
+- chore: 去除spring-vault-core
 
 ## [2.0.0] 2026.3.24
 
