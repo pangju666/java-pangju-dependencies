@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## [1.3.0] 2026.9.10
+## [1.3.0] 2026.11.6
 
 - chore: 升级spring-boot-dependencies至 3.5.16
 - chore: 升级lz4-java至 1.11.2
