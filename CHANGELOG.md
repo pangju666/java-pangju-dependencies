@@ -2,18 +2,18 @@
 
 ## [2.1.0] 2026.9.10
 
-- chore: 升级spring-boot-dependencies至 4.1.1
+- chore: 升级spring-boot-dependencies至 4.1.2
 - chore: 升级lz4-java至 1.11.2
 - chore: 升级java-jwt至 4.6.2
-- chore: 升级metadata-extractor至 2.21.0
-- chore: 升级guava至 33.7.2-jre
+- chore: 升级metadata-extractor至 2.22.0
+- chore: 升级guava至 33.8.0-jre
 - chore: 升级commons-io至 2.22.0
 - chore: 升级commons-configuration2至 2.15.1
 - chore: 升级commons-numbers-core至 1.3
 - chore: 升级pdfbox-jbig2-imageio至 3.0.5
-- chore: 升级tika至 4.1.0
+- chore: 升级tika至 4.2.0
 - chore: 升级boofcv至 1.4.0
-- chore: 升级jsoup至 1.23.2
+- chore: 升级jsoup至 1.24.1
 - chore: 升级gmavenplus-plugin至 5.1.0
 - chore: 升级datafaker至 2.7.0
 - chore: 升级redisson至 4.8.0
@@ -37,8 +37,8 @@
 - chore: 新增numpy-platform 2.5.1-1.5.14
 - chore: 新增javacpp 1.5.14
 - chore: 新增javacpp-platform 1.5.14
-- chore: 升级mybatis-plus至 3.5.17
-- chore: 新增zstd-jni 1.5.7-24
+- chore: 升级mybatis-plus至 3.5.18.1
+- chore: 新增zstd-jni 1.5.7-25
 - chore: 升级twelvemonkeys 3.15.3
 - chore: 升级commons-collections4至 4.6.0
 - chore: 升级pdfbox至 3.0.8
@@ -50,6 +50,7 @@
 - chore: 升级sa-token至 1.46.0
 - chore: 新增testcontainers-bom 2.0.5
 - chore: 去除spring-vault-core
+- chore: 升级poi至 6.0.0
 
 ## [2.0.0] 2026.3.24
 

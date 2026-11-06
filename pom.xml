@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-dependencies</artifactId>
-		<version>4.1.1</version>
+		<version>4.1.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.github.pangju666</groupId>
@@ -45,19 +45,19 @@
 		<ffmpeg.version>8.1.2</ffmpeg.version>
 		<gpg.plugin.version>3.2.8</gpg.plugin.version>
 		<gmavenplus.plugin.version>5.1.0</gmavenplus.plugin.version>
-		<guava.version>33.7.2-jre</guava.version>
+		<guava.version>33.8.0-jre</guava.version>
 		<hanlp.version>portable-1.8.6</hanlp.version>
 		<ipaddress.version>5.6.2</ipaddress.version>
 		<jai-imageio.version>1.4.0</jai-imageio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 		<java-jwt.version>4.6.2</java-jwt.version>
 		<javacpp.version>1.5.14</javacpp.version>
-		<jsoup.version>1.23.2</jsoup.version>
+		<jsoup.version>1.24.1</jsoup.version>
 		<leptonica.version>1.87.0</leptonica.version>
 		<mapstruct.version>1.6.3</mapstruct.version>
-		<metadata-extractor.version>2.21.0</metadata-extractor.version>
+		<metadata-extractor.version>2.22.0</metadata-extractor.version>
 		<mybatis.version>3.5.19</mybatis.version>
-		<mybatis-plus.version>3.5.17</mybatis-plus.version>
+		<mybatis-plus.version>3.5.18.1</mybatis-plus.version>
 		<mybatis-spring.version>4.1.0</mybatis-spring.version>
 		<mybatis-spring-boot.version>4.1.0</mybatis-spring-boot.version>
 		<numpy.version>2.5.1</numpy.version>
@@ -66,7 +66,7 @@
 		<p6spy.version>3.9.1</p6spy.version>
 		<pdfbox.version>3.0.8</pdfbox.version>
 		<pdfbox-jbig2-imageio.version>3.0.5</pdfbox-jbig2-imageio.version>
-		<poi.version>5.5.1</poi.version>
+		<poi.version>6.0.0</poi.version>
 		<poi-tl.version>1.12.2</poi-tl.version>
 		<redisson.version>4.8.0</redisson.version>
 		<reflections.version>0.10.2</reflections.version>
@@ -75,13 +75,13 @@
 		<spockframework.version>2.4-groovy-5.0</spockframework.version>
 		<tesseract.version>5.5.3</tesseract.version>
 		<testcontainers.version>2.0.5</testcontainers.version>
-		<tika.version>4.1.0</tika.version>
+		<tika.version>4.2.0</tika.version>
 		<thumbnailator.version>0.4.21</thumbnailator.version>
 		<twelvemonkeys.version>3.15.3</twelvemonkeys.version>
 		<xz.version>1.12</xz.version>
 		<zero-allocation-hashing.version>2026.0</zero-allocation-hashing.version>
 		<zip4j.version>2.11.6</zip4j.version>
-		<zstd-jni.version>1.5.7-24</zstd-jni.version>
+		<zstd-jni.version>1.5.7-25</zstd-jni.version>
 	</properties>
 
 	<licenses>
