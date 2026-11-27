@@ -51,6 +51,7 @@
 - chore: 新增testcontainers-bom 2.0.5
 - chore: 去除spring-vault-core
 - chore: 升级poi至 6.0.0
+- chore: 新增flowable 8.0.0
 
 ## [2.0.0] 2026.3.24
 
