@@ -43,6 +43,7 @@
 		<dynamic-datasource.version>4.6.0</dynamic-datasource.version>
 		<fastexcel.version>1.3.0</fastexcel.version>
 		<ffmpeg.version>8.1.2</ffmpeg.version>
+		<flowable.version>7.2.0</flowable.version>
 		<gpg.plugin.version>3.2.8</gpg.plugin.version>
 		<gmavenplus.plugin.version>4.2.1</gmavenplus.plugin.version>
 		<guava.version>33.8.0-jre</guava.version>
@@ -598,6 +599,14 @@
 				<groupId>org.dom4j</groupId>
 				<artifactId>dom4j</artifactId>
 				<version>${dom4j.version}</version>
+			</dependency>
+			<!-- https://mvnrepository.com/artifact/org.flowable/flowable-bom -->
+			<dependency>
+				<groupId>org.flowable</groupId>
+				<artifactId>flowable-bom</artifactId>
+				<version>${flowable.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 			<!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
 			<dependency>

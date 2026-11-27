@@ -45,6 +45,7 @@
 - chore: 升级dynamic-datasource-spring-boot3-starter至 4.6.0
 - chore: 去除spring-vault-core
 - chore: 升级poi至 6.0.0
+- chore: 新增flowable 7.2.0
 
 ## [1.2.0] 2026.3.26
 
