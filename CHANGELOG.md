@@ -2,7 +2,7 @@
 
 ## [2.1.0] 2026.11.6
 
-- chore: 升级spring-boot-dependencies至 4.1.2
+- chore: 升级spring-boot-dependencies至 4.2.0
 - chore: 升级lz4-java至 1.11.2
 - chore: 升级java-jwt至 4.6.2
 - chore: 升级metadata-extractor至 2.22.0
@@ -38,7 +38,7 @@
 - chore: 新增javacpp 1.5.14
 - chore: 新增javacpp-platform 1.5.14
 - chore: 升级mybatis-plus至 3.5.18.1
-- chore: 新增zstd-jni 1.5.7-25
+- chore: 新增zstd-jni 1.6.0-1
 - chore: 升级twelvemonkeys 3.15.3
 - chore: 升级commons-collections4至 4.6.0
 - chore: 升级pdfbox至 3.0.8
