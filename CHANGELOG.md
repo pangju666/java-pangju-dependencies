@@ -33,7 +33,7 @@
 - chore: 新增javacpp 1.5.14
 - chore: 新增javacpp-platform 1.5.14
 - chore: 升级mybatis-plus至 3.5.18.1
-- chore: 新增zstd-jni 1.5.7-25
+- chore: 新增zstd-jni 1.6.0-1
 - chore: 去除boofcv-core
 - chore: 升级twelvemonkeys 3.15.3
 - chore: 升级commons-collections4至 4.6.0
